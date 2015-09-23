@@ -1,0 +1,239 @@
+20:32:47 **** Rebuild of configuration Debug for project cfgenerator_634012_641344 ****
+Info: Internal Builder is used for build
+gcc -std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cf_generator.o" "..\\src\\cf_generator.c" 
+gcc -std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cf_utilities.o" "..\\src\\cf_utilities.c" 
+ar -r libcfgenerator_634012_641344.a "src\\cf_utilities.o" "src\\cf_generator.o" 
+ar: creating libcfgenerator_634012_641344.a
+20:33:03 **** Rebuild of configuration Debug for project test_cfgenerator_634012_641344 ****
+Info: Internal Builder is used for build
+gcc -std=c99 "-IC:\\Workspaces\\prova1_634012_641344\\cfgenerator_634012_641344\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -std=c99 "-IC:\\Workspaces\\prova1_634012_641344\\cfgenerator_634012_641344\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test_cfgenerator.o" "..\\src\\test_cfgenerator.c" 
+gcc "-LC:\\Workspaces\\prova1_634012_641344\\cfgenerator_634012_641344\\Debug" -o test_cfgenerator_634012_641344.exe "src\\test_cfgenerator.o" "src\\main.o" -lcfgenerator_634012_641344 -lcunit 
+22:53:56 **** Incremental Build of configuration Debug for project cfgenerator_634012_641344 ****
+Info: Internal Builder is used for build
+gcc -std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cf_generator.o" "..\\src\\cf_generator.c" 
+gcc -std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cf_utilities.o" "..\\src\\cf_utilities.c" 
+ar -r libcfgenerator_634012_641344.a "src\\cf_utilities.o" "src\\cf_generator.o" 
+22:54:10 **** Incremental Build of configuration Debug for project test_cfgenerator_634012_641344 ****
+Info: Internal Builder is used for build
+gcc "-LC:\\Workspaces\\prova1_634012_641344\\cfgenerator_634012_641344\\Debug" -o test_cfgenerator_634012_641344.exe "src\\test_cfgenerator.o" "src\\main.o" -lcfgenerator_634012_641344 -lcunit 
+Info: Nothing to build for cfgenerator_634012_641344
+Info: Nothing to build for test_cfgenerator_634012_641344
+Info: Nothing to build for cfgenerator_634012_641344
+23:05:34 **** Incremental Build of configuration Debug for project test_cfgenerator_634012_641344 ****
+Info: Internal Builder is used for build
+gcc -std=c99 "-IC:\\Workspaces\\prova1_634012_641344\\cfgenerator_634012_641344\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test_cfgenerator.o" "..\\src\\test_cfgenerator.c" 
+gcc "-LC:\\Workspaces\\prova1_634012_641344\\cfgenerator_634012_641344\\Debug" -o test_cfgenerator_634012_641344.exe "src\\test_cfgenerator.o" "src\\main.o" -lcfgenerator_634012_641344 -lcunit 
+Info: Nothing to build for cfgenerator_634012_641344
+23:07:25 **** Incremental Build of configuration Debug for project test_cfgenerator_634012_641344 ****
+Info: Internal Builder is used for build
+gcc -std=c99 "-IC:\\Workspaces\\prova1_634012_641344\\cfgenerator_634012_641344\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test_cfgenerator.o" "..\\src\\test_cfgenerator.c" 
+gcc "-LC:\\Workspaces\\prova1_634012_641344\\cfgenerator_634012_641344\\Debug" -o test_cfgenerator_634012_641344.exe "src\\test_cfgenerator.o" "src\\main.o" -lcfgenerator_634012_641344 -lcunit 
+Info: Nothing to build for cfgenerator_634012_641344
+23:09:01 **** Incremental Build of configuration Debug for project test_cfgenerator_634012_641344 ****
+Info: Internal Builder is used for build
+gcc -std=c99 "-IC:\\Workspaces\\prova1_634012_641344\\cfgenerator_634012_641344\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test_cfgenerator.o" "..\\src\\test_cfgenerator.c" 
+gcc "-LC:\\Workspaces\\prova1_634012_641344\\cfgenerator_634012_641344\\Debug" -o test_cfgenerator_634012_641344.exe "src\\test_cfgenerator.o" "src\\main.o" -lcfgenerator_634012_641344 -lcunit 
+Info: Nothing to build for cfgenerator_634012_641344
+23:15:37 **** Incremental Build of configuration Debug for project test_cfgenerator_634012_641344 ****
+Info: Internal Builder is used for build
+gcc -std=c99 "-IC:\\Workspaces\\prova1_634012_641344\\cfgenerator_634012_641344\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test_cfgenerator.o" "..\\src\\test_cfgenerator.c" 
+gcc "-LC:\\Workspaces\\prova1_634012_641344\\cfgenerator_634012_641344\\Debug" -o test_cfgenerator_634012_641344.exe "src\\test_cfgenerator.o" "src\\main.o" -lcfgenerator_634012_641344 -lcunit 
+Info: Nothing to build for cfgenerator_634012_641344
+23:17:26 **** Incremental Build of configuration Debug for project test_cfgenerator_634012_641344 ****
+Info: Internal Builder is used for build
+gcc -std=c99 "-IC:\\Workspaces\\prova1_634012_641344\\cfgenerator_634012_641344\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test_cfgenerator.o" "..\\src\\test_cfgenerator.c" 
+gcc "-LC:\\Workspaces\\prova1_634012_641344\\cfgenerator_634012_641344\\Debug" -o test_cfgenerator_634012_641344.exe "src\\test_cfgenerator.o" "src\\main.o" -lcfgenerator_634012_641344 -lcunit 
+Info: Nothing to build for cfgenerator_634012_641344
+23:18:16 **** Incremental Build of configuration Debug for project test_cfgenerator_634012_641344 ****
+Info: Internal Builder is used for build
+gcc -std=c99 "-IC:\\Workspaces\\prova1_634012_641344\\cfgenerator_634012_641344\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test_cfgenerator.o" "..\\src\\test_cfgenerator.c" 
+gcc "-LC:\\Workspaces\\prova1_634012_641344\\cfgenerator_634012_641344\\Debug" -o test_cfgenerator_634012_641344.exe "src\\test_cfgenerator.o" "src\\main.o" -lcfgenerator_634012_641344 -lcunit 
+12:57:31 **** Clean-only build of configuration Debug for project cfgenerator_634012_641344 ****
+rm -rf libcfgenerator_634012_641344.a src/cf_utilities.d src/cf_utilities.o src/cf_generator.o src/cf_generator.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;C:/Program Files/Java/jre1.8.0_45/bin/client;C:/Program Files/Java/jre1.8.0_45/bin;C:/Program Files/Java/jre1.8.0_45/lib/i386;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\MinGW\bin;C:\Program Files\Skype\Phone\;C:\Program Files\GtkSharp\2.12\bin;C:\Users\Leo\Desktop\eclipse-cpp-luna-SR2-win32\eclipse]
+
+12:57:31 **** Clean-only build of configuration Debug for project cfgenerator_634012_641344 ****
+12:57:31 **** Clean-only build of configuration Debug for project test_cfgenerator_634012_641344 ****
+rm -rf src/test_cfgenerator.o src/main.d test_cfgenerator_634012_641344.exe src/test_cfgenerator.d src/main.o 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;C:/Program Files/Java/jre1.8.0_45/bin/client;C:/Program Files/Java/jre1.8.0_45/bin;C:/Program Files/Java/jre1.8.0_45/lib/i386;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\MinGW\bin;C:\Program Files\Skype\Phone\;C:\Program Files\GtkSharp\2.12\bin;C:\Users\Leo\Desktop\eclipse-cpp-luna-SR2-win32\eclipse]
+
+12:57:31 **** Clean-only build of configuration Debug for project test_cfgenerator_634012_641344 ****
+12:59:32 **** Rebuild of configuration Debug for project cfgenerator ****
+Info: Internal Builder is used for build
+gcc -std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cf_generator.o" "..\\src\\cf_generator.c" 
+gcc -std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cf_utilities.o" "..\\src\\cf_utilities.c" 
+ar -r libcfgenerator.a "src\\cf_utilities.o" "src\\cf_generator.o" 
+ar: creating libcfgenerator.a
+12:59:33 **** Rebuild of configuration Debug for project test_cfgenerator ****
+Info: Internal Builder is used for build
+gcc -std=c99 "-IC:\\Users\\Leo\\Desktop\\prova1_634012_641344\\cfgenerator\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test_cfgenerator.o" "..\\src\\test_cfgenerator.c" 
+gcc -std=c99 "-IC:\\Users\\Leo\\Desktop\\prova1_634012_641344\\cfgenerator\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc "-LC:\\Users\\Leo\\Desktop\\prova1_634012_641344\\cfgenerator\\Debug" -o test_cfgenerator.exe "src\\test_cfgenerator.o" "src\\main.o" -lcfgenerator -lcunit 
+Info: Nothing to build for cfgenerator
+Info: Nothing to build for test_cfgenerator
+13:02:39 **** Clean-only build of configuration Debug for project cfgenerator ****
+rm -rf src/cf_utilities.d src/cf_utilities.o src/cf_generator.o src/cf_generator.d libcfgenerator.a 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;C:/Program Files/Java/jre1.8.0_45/bin/client;C:/Program Files/Java/jre1.8.0_45/bin;C:/Program Files/Java/jre1.8.0_45/lib/i386;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\MinGW\bin;C:\Program Files\Skype\Phone\;C:\Program Files\GtkSharp\2.12\bin;C:\Users\Leo\Desktop\eclipse-cpp-luna-SR2-win32\eclipse]
+
+13:02:39 **** Clean-only build of configuration Debug for project cfgenerator ****
+13:02:39 **** Clean-only build of configuration Debug for project test_cfgenerator ****
+rm -rf src/test_cfgenerator.o test_cfgenerator.exe src/main.d src/main.o src/test_cfgenerator.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;C:/Program Files/Java/jre1.8.0_45/bin/client;C:/Program Files/Java/jre1.8.0_45/bin;C:/Program Files/Java/jre1.8.0_45/lib/i386;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\MinGW\bin;C:\Program Files\Skype\Phone\;C:\Program Files\GtkSharp\2.12\bin;C:\Users\Leo\Desktop\eclipse-cpp-luna-SR2-win32\eclipse]
+
+13:02:40 **** Clean-only build of configuration Debug for project test_cfgenerator ****
+13:05:43 **** Rebuild of configuration Debug for project cfgenerator ****
+Info: Internal Builder is used for build
+gcc -std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cf_generator.o" "..\\src\\cf_generator.c" 
+gcc -std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cf_utilities.o" "..\\src\\cf_utilities.c" 
+ar -r libcfgenerator.a "src\\cf_utilities.o" "src\\cf_generator.o" 
+ar: creating libcfgenerator.a
+13:05:44 **** Rebuild of configuration Debug for project test_cfgenerator ****
+Info: Internal Builder is used for build
+gcc -std=c99 "-IC:\\Users\\Leo\\Desktop\\cfgenerator_without_list\\cfgenerator\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test_cfgenerator.o" "..\\src\\test_cfgenerator.c" 
+gcc -std=c99 "-IC:\\Users\\Leo\\Desktop\\cfgenerator_without_list\\cfgenerator\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc "-LC:\\Users\\Leo\\Desktop\\cfgenerator_without_list\\cfgenerator\\Debug" -o test_cfgenerator.exe "src\\test_cfgenerator.o" "src\\main.o" -lcfgenerator -lcunit 
+Info: Nothing to build for test_cfgenerator
+13:12:18 **** Clean-only build of configuration Debug for project cfgenerator ****
+rm -rf libcfgenerator.a src/cf_utilities.o src/cf_generator.d src/cf_utilities.d src/cf_generator.o 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;C:/Program Files/Java/jre1.8.0_45/bin/client;C:/Program Files/Java/jre1.8.0_45/bin;C:/Program Files/Java/jre1.8.0_45/lib/i386;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\MinGW\bin;C:\Program Files\Skype\Phone\;C:\Program Files\GtkSharp\2.12\bin;C:\Users\Leo\Desktop\eclipse-cpp-luna-SR2-win32\eclipse]
+
+13:12:18 **** Clean-only build of configuration Debug for project cfgenerator ****
+13:12:18 **** Clean-only build of configuration Debug for project test_cfgenerator ****
+rm -rf src/main.o src/main.d src/test_cfgenerator.o src/test_cfgenerator.d test_cfgenerator.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;C:/Program Files/Java/jre1.8.0_45/bin/client;C:/Program Files/Java/jre1.8.0_45/bin;C:/Program Files/Java/jre1.8.0_45/lib/i386;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\MinGW\bin;C:\Program Files\Skype\Phone\;C:\Program Files\GtkSharp\2.12\bin;C:\Users\Leo\Desktop\eclipse-cpp-luna-SR2-win32\eclipse]
+
+13:12:18 **** Clean-only build of configuration Debug for project test_cfgenerator ****
+13:12:28 **** Rebuild of configuration Debug for project cfgenerator ****
+Info: Internal Builder is used for build
+gcc -std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cf_utilities.o" "..\\src\\cf_utilities.c" 
+gcc -std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cf_generator.o" "..\\src\\cf_generator.c" 
+ar -r libcfgenerator.a "src\\cf_utilities.o" "src\\cf_generator.o" 
+ar: creating libcfgenerator.a
+13:12:28 **** Rebuild of configuration Debug for project test_cfgenerator ****
+Info: Internal Builder is used for build
+gcc -std=c99 "-IC:\\Users\\Leo\\Desktop\\cfgenerator_without_list\\cfgenerator\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -std=c99 "-IC:\\Users\\Leo\\Desktop\\cfgenerator_without_list\\cfgenerator\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test_cfgenerator.o" "..\\src\\test_cfgenerator.c" 
+gcc "-LC:\\Users\\Leo\\Desktop\\cfgenerator_without_list\\cfgenerator\\Debug" -o test_cfgenerator.exe "src\\test_cfgenerator.o" "src\\main.o" -lcfgenerator -lcunit 
+Info: Nothing to build for test_cfgenerator
+13:12:47 **** Clean-only build of configuration Debug for project cfgenerator ****
+rm -rf libcfgenerator.a src/cf_utilities.o src/cf_generator.d src/cf_utilities.d src/cf_generator.o 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;C:/Program Files/Java/jre1.8.0_45/bin/client;C:/Program Files/Java/jre1.8.0_45/bin;C:/Program Files/Java/jre1.8.0_45/lib/i386;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\MinGW\bin;C:\Program Files\Skype\Phone\;C:\Program Files\GtkSharp\2.12\bin;C:\Users\Leo\Desktop\eclipse-cpp-luna-SR2-win32\eclipse]
+
+13:12:47 **** Clean-only build of configuration Debug for project cfgenerator ****
+13:12:47 **** Clean-only build of configuration Debug for project test_cfgenerator ****
+rm -rf src/main.o src/main.d src/test_cfgenerator.o src/test_cfgenerator.d test_cfgenerator.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;C:/Program Files/Java/jre1.8.0_45/bin/client;C:/Program Files/Java/jre1.8.0_45/bin;C:/Program Files/Java/jre1.8.0_45/lib/i386;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\MinGW\bin;C:\Program Files\Skype\Phone\;C:\Program Files\GtkSharp\2.12\bin;C:\Users\Leo\Desktop\eclipse-cpp-luna-SR2-win32\eclipse]
+
+13:12:47 **** Clean-only build of configuration Debug for project test_cfgenerator ****
+13:28:27 **** Rebuild of configuration Debug for project cfgenerator ****
+Info: Internal Builder is used for build
+gcc -std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cf_utilities.o" "..\\src\\cf_utilities.c" 
+gcc -std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cf_generator.o" "..\\src\\cf_generator.c" 
+ar -r libcfgenerator.a "src\\cf_utilities.o" "src\\cf_generator.o" 
+ar: creating libcfgenerator.a
+13:28:28 **** Rebuild of configuration Debug for project test_cfgenerator ****
+Info: Internal Builder is used for build
+gcc -std=c99 "-IC:\\Users\\Leo\\Desktop\\cfgenerator_without_list\\cfgenerator\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -std=c99 "-IC:\\Users\\Leo\\Desktop\\cfgenerator_without_list\\cfgenerator\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test_cfgenerator.o" "..\\src\\test_cfgenerator.c" 
+gcc "-LC:\\Users\\Leo\\Desktop\\cfgenerator_without_list\\cfgenerator\\Debug" -o test_cfgenerator.exe "src\\test_cfgenerator.o" "src\\main.o" -lcfgenerator -lcunit 
+Info: Nothing to build for test_cfgenerator
+13:28:55 **** Clean-only build of configuration Debug for project cfgenerator ****
+rm -rf libcfgenerator.a src/cf_utilities.o src/cf_generator.d src/cf_utilities.d src/cf_generator.o 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;C:/Program Files/Java/jre1.8.0_45/bin/client;C:/Program Files/Java/jre1.8.0_45/bin;C:/Program Files/Java/jre1.8.0_45/lib/i386;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\MinGW\bin;C:\Program Files\Skype\Phone\;C:\Program Files\GtkSharp\2.12\bin;C:\Users\Leo\Desktop\eclipse-cpp-luna-SR2-win32\eclipse]
+
+13:28:55 **** Clean-only build of configuration Debug for project cfgenerator ****
+13:28:55 **** Clean-only build of configuration Debug for project test_cfgenerator ****
+rm -rf src/main.o src/main.d src/test_cfgenerator.o src/test_cfgenerator.d test_cfgenerator.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;C:/Program Files/Java/jre1.8.0_45/bin/client;C:/Program Files/Java/jre1.8.0_45/bin;C:/Program Files/Java/jre1.8.0_45/lib/i386;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\MinGW\bin;C:\Program Files\Skype\Phone\;C:\Program Files\GtkSharp\2.12\bin;C:\Users\Leo\Desktop\eclipse-cpp-luna-SR2-win32\eclipse]
+
+13:28:55 **** Clean-only build of configuration Debug for project test_cfgenerator ****
+14:23:32 **** Rebuild of configuration Debug for project cfgenerator ****
+Info: Internal Builder is used for build
+gcc -std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cf_generator.o" "..\\src\\cf_generator.c" 
+gcc -std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cf_utilities.o" "..\\src\\cf_utilities.c" 
+ar -r libcfgenerator.a "src\\cf_utilities.o" "src\\cf_generator.o" 
+ar: creating libcfgenerator.a
+14:23:33 **** Rebuild of configuration Debug for project test_cfgenerator ****
+Info: Internal Builder is used for build
+gcc -std=c99 "-IC:\\Users\\Leo\\Desktop\\cfgenerator_without_list\\cfgenerator\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test_cfgenerator.o" "..\\src\\test_cfgenerator.c" 
+gcc -std=c99 "-IC:\\Users\\Leo\\Desktop\\cfgenerator_without_list\\cfgenerator\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc "-LC:\\Users\\Leo\\Desktop\\cfgenerator_without_list\\cfgenerator\\Debug" -o test_cfgenerator.exe "src\\test_cfgenerator.o" "src\\main.o" -lcfgenerator -lcunit 
+Info: Nothing to build for test_cfgenerator
+14:25:40 **** Clean-only build of configuration Debug for project cfgenerator ****
+rm -rf libcfgenerator.a src/cf_utilities.o src/cf_generator.d src/cf_utilities.d src/cf_generator.o 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;C:/Program Files/Java/jre1.8.0_45/bin/client;C:/Program Files/Java/jre1.8.0_45/bin;C:/Program Files/Java/jre1.8.0_45/lib/i386;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\MinGW\bin;C:\Program Files\Skype\Phone\;C:\Program Files\GtkSharp\2.12\bin;C:\eclipse]
+
+14:25:40 **** Clean-only build of configuration Debug for project cfgenerator ****
+14:25:41 **** Clean-only build of configuration Debug for project test_cfgenerator ****
+rm -rf src/main.o src/main.d src/test_cfgenerator.o src/test_cfgenerator.d test_cfgenerator.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;C:/Program Files/Java/jre1.8.0_45/bin/client;C:/Program Files/Java/jre1.8.0_45/bin;C:/Program Files/Java/jre1.8.0_45/lib/i386;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\MinGW\bin;C:\Program Files\Skype\Phone\;C:\Program Files\GtkSharp\2.12\bin;C:\eclipse]
+
+14:25:41 **** Clean-only build of configuration Debug for project test_cfgenerator ****
+14:25:43 **** Rebuild of configuration Debug for project cfgenerator ****
+Info: Internal Builder is used for build
+gcc -std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cf_utilities.o" "..\\src\\cf_utilities.c" 
+gcc -std=c99 -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cf_generator.o" "..\\src\\cf_generator.c" 
+ar -r libcfgenerator.a "src\\cf_utilities.o" "src\\cf_generator.o" 
+ar: creating libcfgenerator.a
+14:25:44 **** Rebuild of configuration Debug for project test_cfgenerator ****
+Info: Internal Builder is used for build
+gcc -std=c99 "-IC:\\Users\\Leo\\Desktop\\cfgenerator_without_list\\cfgenerator\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test_cfgenerator.o" "..\\src\\test_cfgenerator.c" 
+gcc -std=c99 "-IC:\\Users\\Leo\\Desktop\\cfgenerator_without_list\\cfgenerator\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc "-LC:\\Users\\Leo\\Desktop\\cfgenerator_without_list\\cfgenerator\\Debug" -o test_cfgenerator.exe "src\\test_cfgenerator.o" "src\\main.o" -lcfgenerator -lcunit 
+14:25:54 **** Incremental Build of configuration Debug for project test_cfgenerator ****
+Info: Internal Builder is used for build
+gcc -std=c99 "-IC:\\Users\\Leo\\Desktop\\cfgenerator_without_list\\cfgenerator\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc "-LC:\\Users\\Leo\\Desktop\\cfgenerator_without_list\\cfgenerator\\Debug" -o test_cfgenerator.exe "src\\test_cfgenerator.o" "src\\main.o" -lcfgenerator -lcunit 
+14:26:18 **** Clean-only build of configuration Debug for project cfgenerator ****
+rm -rf libcfgenerator.a src/cf_utilities.o src/cf_generator.d src/cf_utilities.d src/cf_generator.o 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;C:/Program Files/Java/jre1.8.0_45/bin/client;C:/Program Files/Java/jre1.8.0_45/bin;C:/Program Files/Java/jre1.8.0_45/lib/i386;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\MinGW\bin;C:\Program Files\Skype\Phone\;C:\Program Files\GtkSharp\2.12\bin;C:\eclipse]
+
+14:26:18 **** Clean-only build of configuration Debug for project cfgenerator ****
+14:26:18 **** Clean-only build of configuration Debug for project test_cfgenerator ****
+rm -rf src/main.o src/main.d src/test_cfgenerator.o src/test_cfgenerator.d test_cfgenerator.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;C:/Program Files/Java/jre1.8.0_45/bin/client;C:/Program Files/Java/jre1.8.0_45/bin;C:/Program Files/Java/jre1.8.0_45/lib/i386;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\MinGW\bin;C:\Program Files\Skype\Phone\;C:\Program Files\GtkSharp\2.12\bin;C:\eclipse]
+
+14:26:18 **** Clean-only build of configuration Debug for project test_cfgenerator ****

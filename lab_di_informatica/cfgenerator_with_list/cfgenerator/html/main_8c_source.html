@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.9.1"/>
+<title>GeneratoreCodiceFiscale_daFile:  File sorgente C:/Users/Leo/Desktop/workspaces/prova2_63401_641344/main_cfgenerator_634012_641344/src/main.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">GeneratoreCodiceFiscale_daFile
+   &#160;<span id="projectnumber">0.2</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generato da Doxygen 1.8.9.1 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Pagina&#160;Principale</span></a></li>
+      <li><a href="annotated.html"><span>Strutture&#160;dati</span></a></li>
+      <li class="current"><a href="files.html"><span>File</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Elenco&#160;dei&#160;file</span></a></li>
+      <li><a href="globals.html"><span>Elementi&#160;globali</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_a4e1c94109f93581365788fedce679d6.html">main_cfgenerator_634012_641344</a></li><li class="navelem"><a class="el" href="dir_c24923d2f507a20ca4c83289b7d4c2ba.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">main.c</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="main_8c.html">Vai alla documentazione di questo file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;stdlib.h&gt;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;stdbool.h&gt;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;assert.h&gt;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="cfutils_8h.html">utils/cfutils.h</a>&quot;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="main_8c.html#a8b8cacce2f9e02ce0c2e5295b35b6495">   15</a></span>&#160;<span class="preprocessor">#define PEOPLE_FILE &quot;people.txt&quot; </span></div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="main_8c.html#a73acff060be801123636a558b292d5ea">   16</a></span>&#160;<span class="preprocessor">#define PLACES_FILE &quot;italian_towns.txt&quot; </span></div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="main_8c.html#a45f6a0ce69ee952a033e04d8d2062ab9">   18</a></span>&#160;<span class="preprocessor">#define PEOPLE_CF_FILE &quot;people_cf.txt&quot; </span></div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="main_8c.html#a9677609bef6a46e65af64eb0d11b7985">   19</a></span>&#160;<span class="preprocessor">#define PEOPLE_CF_MALES_AL_FILE &quot;people_cf_males_al.txt&quot; </span></div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="main_8c.html#a18374a45eda1b1e8c9152773d55956b2">   20</a></span>&#160;<span class="preprocessor">#define PEOPLE_CF_FEMALES_MZ_FILE &quot;people_cf_females_mz.txt&quot; </span></div>
+<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="main_8c.html#a0ddf1224851353fc92bfbff6f499fa97">   45</a></span>&#160;<span class="preprocessor">int main(int argc, char* argv[]) {</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">bool</span> exit = EXIT_SUCCESS;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordflow">if</span>(argc != 4) {</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        printf(<span class="stringliteral">&quot;ERROR, you must type 3 paths &lt;people_without_cf&gt; &lt;italian_towns&gt; &lt;output_files&gt;\n&quot;</span>);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        assert(argc == 4);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        exit = EXIT_FAILURE;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    }</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        FILE *people_cf, *people, *italian_towns;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="keywordtype">char</span> *path_people_cf, *path_people, *path_italian_towns;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <span class="comment">// INPUT FILES</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        path_people = <a class="code" href="cfutils_8c.html#ad5b82adf08e4355dba0ebc1cb9eca72b">outfile_path</a>(argv[1], <a class="code" href="main_8c.html#a8b8cacce2f9e02ce0c2e5295b35b6495">PEOPLE_FILE</a>);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        people = fopen(path_people, <span class="stringliteral">&quot;r&quot;</span>);</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        path_italian_towns = <a class="code" href="cfutils_8c.html#ad5b82adf08e4355dba0ebc1cb9eca72b">outfile_path</a>(argv[2], <a class="code" href="main_8c.html#a73acff060be801123636a558b292d5ea">PLACES_FILE</a>);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        italian_towns = fopen(path_italian_towns, <span class="stringliteral">&quot;r&quot;</span>);</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <span class="comment">// OUTPUT FILES</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="comment">// PEOPLE CF</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        path_people_cf = <a class="code" href="cfutils_8c.html#ad5b82adf08e4355dba0ebc1cb9eca72b">outfile_path</a>(argv[3], <a class="code" href="main_8c.html#a45f6a0ce69ee952a033e04d8d2062ab9">PEOPLE_CF_FILE</a>);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        people_cf = fopen(path_people_cf, <span class="stringliteral">&quot;w&quot;</span>);</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <a class="code" href="cfutils_8c.html#a4c7700d3aca25a3f77fbf3439b142f2a">people_to_file_cf</a>(people, people_cf, italian_towns);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        fclose(people_cf);</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        free(path_people_cf);</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <span class="comment">// PEOPLE CF MALES AL</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        path_people_cf = <a class="code" href="cfutils_8c.html#ad5b82adf08e4355dba0ebc1cb9eca72b">outfile_path</a>(argv[3], <a class="code" href="main_8c.html#a9677609bef6a46e65af64eb0d11b7985">PEOPLE_CF_MALES_AL_FILE</a>);</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        people_cf = fopen(path_people_cf, <span class="stringliteral">&quot;w&quot;</span>);</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <a class="code" href="cfutils_8c.html#a0ad4117184a9daefa90784f49c6d0a82">people_to_file_cf_males_AL</a>(people, people_cf, italian_towns);</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        fclose(people_cf);</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        free(path_people_cf);</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <span class="comment">// PEOPLE CF_FEMALES_MZ</span></div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        path_people_cf = <a class="code" href="cfutils_8c.html#ad5b82adf08e4355dba0ebc1cb9eca72b">outfile_path</a>(argv[3], <a class="code" href="main_8c.html#a18374a45eda1b1e8c9152773d55956b2">PEOPLE_CF_FEMALES_MZ_FILE</a>);</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        people_cf = fopen(path_people_cf, <span class="stringliteral">&quot;w&quot;</span>);</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <a class="code" href="cfutils_8c.html#a337d774827f21fc273730d2454d6a5b6">people_to_file_cf_females_MZ</a>(people, people_cf, italian_towns);</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        fclose(people_cf);</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        free(path_people_cf);</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <span class="comment">// END</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        fclose(people);</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        fclose(italian_towns);</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        free(path_people);</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        free(path_italian_towns);</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    }</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="keywordflow">return</span> exit;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;}</div>
+<div class="ttc" id="main_8c_html_a18374a45eda1b1e8c9152773d55956b2"><div class="ttname"><a href="main_8c.html#a18374a45eda1b1e8c9152773d55956b2">PEOPLE_CF_FEMALES_MZ_FILE</a></div><div class="ttdeci">#define PEOPLE_CF_FEMALES_MZ_FILE</div><div class="ttdef"><b>Definition:</b> <a href="main_8c_source.html#l00020">main.c:20</a></div></div>
+<div class="ttc" id="main_8c_html_a45f6a0ce69ee952a033e04d8d2062ab9"><div class="ttname"><a href="main_8c.html#a45f6a0ce69ee952a033e04d8d2062ab9">PEOPLE_CF_FILE</a></div><div class="ttdeci">#define PEOPLE_CF_FILE</div><div class="ttdef"><b>Definition:</b> <a href="main_8c_source.html#l00018">main.c:18</a></div></div>
+<div class="ttc" id="cfutils_8c_html_a0ad4117184a9daefa90784f49c6d0a82"><div class="ttname"><a href="cfutils_8c.html#a0ad4117184a9daefa90784f49c6d0a82">people_to_file_cf_males_AL</a></div><div class="ttdeci">void people_to_file_cf_males_AL(FILE *people_file, FILE *output_file, FILE *places_file)</div><div class="ttdoc">Legge i dati anagrafici di persone da un file, filtra i risultati e li riscrive in un altro file aggi...</div><div class="ttdef"><b>Definition:</b> <a href="cfutils_8c_source.html#l00246">cfutils.c:246</a></div></div>
+<div class="ttc" id="main_8c_html_a9677609bef6a46e65af64eb0d11b7985"><div class="ttname"><a href="main_8c.html#a9677609bef6a46e65af64eb0d11b7985">PEOPLE_CF_MALES_AL_FILE</a></div><div class="ttdeci">#define PEOPLE_CF_MALES_AL_FILE</div><div class="ttdef"><b>Definition:</b> <a href="main_8c_source.html#l00019">main.c:19</a></div></div>
+<div class="ttc" id="cfutils_8c_html_a337d774827f21fc273730d2454d6a5b6"><div class="ttname"><a href="cfutils_8c.html#a337d774827f21fc273730d2454d6a5b6">people_to_file_cf_females_MZ</a></div><div class="ttdeci">void people_to_file_cf_females_MZ(FILE *people_file, FILE *output_file, FILE *places_file)</div><div class="ttdoc">Legge i dati anagrafici di persone da un file, filtra i risultati e li riscrive in un altro file aggi...</div><div class="ttdef"><b>Definition:</b> <a href="cfutils_8c_source.html#l00258">cfutils.c:258</a></div></div>
+<div class="ttc" id="main_8c_html_a8b8cacce2f9e02ce0c2e5295b35b6495"><div class="ttname"><a href="main_8c.html#a8b8cacce2f9e02ce0c2e5295b35b6495">PEOPLE_FILE</a></div><div class="ttdeci">#define PEOPLE_FILE</div><div class="ttdef"><b>Definition:</b> <a href="main_8c_source.html#l00015">main.c:15</a></div></div>
+<div class="ttc" id="cfutils_8c_html_ad5b82adf08e4355dba0ebc1cb9eca72b"><div class="ttname"><a href="cfutils_8c.html#ad5b82adf08e4355dba0ebc1cb9eca72b">outfile_path</a></div><div class="ttdeci">char * outfile_path(char *wd_path, char *filename)</div><div class="ttdoc">Genera il path assoluto di filename. </div><div class="ttdef"><b>Definition:</b> <a href="cfutils_8c_source.html#l00270">cfutils.c:270</a></div></div>
+<div class="ttc" id="cfutils_8h_html"><div class="ttname"><a href="cfutils_8h.html">cfutils.h</a></div></div>
+<div class="ttc" id="cfutils_8c_html_a4c7700d3aca25a3f77fbf3439b142f2a"><div class="ttname"><a href="cfutils_8c.html#a4c7700d3aca25a3f77fbf3439b142f2a">people_to_file_cf</a></div><div class="ttdeci">void people_to_file_cf(FILE *people_file, FILE *output_file, FILE *places_file)</div><div class="ttdoc">Legge i dati anagrafici di persone da un file e li riscrive in un altro file aggiungendovi il codice ...</div><div class="ttdef"><b>Definition:</b> <a href="cfutils_8c_source.html#l00234">cfutils.c:234</a></div></div>
+<div class="ttc" id="main_8c_html_a73acff060be801123636a558b292d5ea"><div class="ttname"><a href="main_8c.html#a73acff060be801123636a558b292d5ea">PLACES_FILE</a></div><div class="ttdeci">#define PLACES_FILE</div><div class="ttdef"><b>Definition:</b> <a href="main_8c_source.html#l00016">main.c:16</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generato Mer 24 Giu 2015 22:48:23 per GeneratoreCodiceFiscale_daFile da &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.9.1
+</small></address>
+</body>
+</html>

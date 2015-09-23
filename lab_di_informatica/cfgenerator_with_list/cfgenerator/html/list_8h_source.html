@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.9.1"/>
+<title>GeneratoreCodiceFiscale_daFile:  File sorgente src/list/list.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">GeneratoreCodiceFiscale_daFile
+   &#160;<span id="projectnumber">0.2</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generato da Doxygen 1.8.9.1 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Pagina&#160;Principale</span></a></li>
+      <li><a href="annotated.html"><span>Strutture&#160;dati</span></a></li>
+      <li class="current"><a href="files.html"><span>File</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Elenco&#160;dei&#160;file</span></a></li>
+      <li><a href="globals.html"><span>Elementi&#160;globali</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_b549a4ff29db703a8298ae0c0d679862.html">src</a></li><li class="navelem"><a class="el" href="dir_eab5b91fc41cc95e827e8ead3e175839.html">list</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">list.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="list_8h.html">Vai alla documentazione di questo file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#ifndef LIST_H_</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#define LIST_H_</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &lt;stdlib.h&gt;</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="person_8h.html">person.h</a>&quot;</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="list_8h.html#ad0116a3d36ac9b7196518a70a4a02244">   25</a></span>&#160;<span class="keyword">typedef</span> <a class="code" href="structperson__struct.html">person</a>* <a class="code" href="list_8h.html#ad0116a3d36ac9b7196518a70a4a02244">list_type</a>;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="list_8h.html#a096a9e841f3d32980ee1c706d65cebd1">   30</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="structlist__struct.html">list_struct</a> <a class="code" href="structlist__struct.html">list</a>;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="list_8h.html#af4aeda155dbe167f1c1cf38cb65bf324">   36</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="structnode.html">node</a> <a class="code" href="structnode.html">node</a>;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<a class="code" href="structlist__struct.html">list</a>* <a class="code" href="list_8h.html#a136dea4dd005ed331e39905ce9f0ac73">new_list</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<a class="code" href="structnode.html">node</a>* <a class="code" href="list_8h.html#ac364927357e20c2f6c04742378011464">new_node</a>(<a class="code" href="structperson__struct.html">list_type</a> <a class="code" href="list_8h.html#a85e4aa575405d81e9a97479b161b29a3">content</a>);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<a class="code" href="structperson__struct.html">list_type</a> <a class="code" href="list_8h.html#a85e4aa575405d81e9a97479b161b29a3">content</a>(<a class="code" href="structnode.html">node</a>* n);</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<a class="code" href="structnode.html">node</a>* <a class="code" href="list_8h.html#adbaff95e281273e6b04391f96861529c">head</a>(<span class="keyword">const</span> <a class="code" href="structlist__struct.html">list</a>* l);</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<a class="code" href="structnode.html">node</a>* <a class="code" href="list_8h.html#af229c82f813eca965696e102cfa363a6">tail</a>(<span class="keyword">const</span> <a class="code" href="structlist__struct.html">list</a>* l);</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<a class="code" href="structnode.html">node</a>* <a class="code" href="list_8h.html#a0363b0d7b6a9c62cb93a1a70c7e00228">next</a>(<span class="keyword">const</span> <a class="code" href="structlist__struct.html">list</a>* l, <a class="code" href="structnode.html">node</a>* n);</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;<a class="code" href="structnode.html">node</a>* <a class="code" href="list_8h.html#a3c6c8ae91a3cb8db395000c69823896d">prev</a>(<span class="keyword">const</span> <a class="code" href="structlist__struct.html">list</a>* l, <a class="code" href="structnode.html">node</a>* n);</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;<span class="keywordtype">int</span> <a class="code" href="list_8h.html#a29151932c73cd1b314f372bceb18ddac">length</a>(<span class="keyword">const</span> <a class="code" href="structlist__struct.html">list</a>* l);</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;<span class="keywordtype">void</span> <a class="code" href="list_8h.html#a81773e39432aa697275778183935254c">add_node</a>(<a class="code" href="structlist__struct.html">list</a>* l, <a class="code" href="structnode.html">node</a>* node_before, <a class="code" href="structnode.html">node</a>* node_to_add);</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;<span class="keywordtype">void</span> <a class="code" href="list_8h.html#aa4addfd958c2037b3957530da3c5f79f">remove_node</a>(<a class="code" href="structlist__struct.html">list</a>* l, <a class="code" href="structnode.html">node</a>* node_to_remove);</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;<span class="keywordtype">void</span> <a class="code" href="list_8h.html#abd5ef8a703e792987b81698a0fbf44f8">delete_node</a>(<a class="code" href="structnode.html">node</a>* n);</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;<span class="keywordtype">void</span> <a class="code" href="list_8h.html#a170026bac7d576835a5e2888c5838911">delete_list</a>(<a class="code" href="structlist__struct.html">list</a>* l);</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;<a class="code" href="structnode.html">node</a>* <a class="code" href="list_8h.html#a7827a40a9f31c3a0941f11f506104def">lookfor</a>(<span class="keyword">const</span> <a class="code" href="structlist__struct.html">list</a>* l, <a class="code" href="structperson__struct.html">list_type</a> <a class="code" href="list_8h.html#a85e4aa575405d81e9a97479b161b29a3">content</a>);</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* LIST_H_ */</span><span class="preprocessor"></span></div>
+<div class="ttc" id="structperson__struct_html"><div class="ttname"><a href="structperson__struct.html">person_struct</a></div><div class="ttdoc">Tipo di dato struttura persona. </div><div class="ttdef"><b>Definition:</b> <a href="person_8h_source.html#l00034">person.h:34</a></div></div>
+<div class="ttc" id="structnode_html"><div class="ttname"><a href="structnode.html">node</a></div><div class="ttdef"><b>Definition:</b> <a href="list_8c_source.html#l00008">list.c:8</a></div></div>
+<div class="ttc" id="list_8h_html_aa4addfd958c2037b3957530da3c5f79f"><div class="ttname"><a href="list_8h.html#aa4addfd958c2037b3957530da3c5f79f">remove_node</a></div><div class="ttdeci">void remove_node(list *l, node *node_to_remove)</div><div class="ttdoc">Rimuove un nodo dalla lista. </div><div class="ttdef"><b>Definition:</b> <a href="list_8c_source.html#l00106">list.c:106</a></div></div>
+<div class="ttc" id="list_8h_html_a170026bac7d576835a5e2888c5838911"><div class="ttname"><a href="list_8h.html#a170026bac7d576835a5e2888c5838911">delete_list</a></div><div class="ttdeci">void delete_list(list *l)</div><div class="ttdoc">Distrugge la lista. </div><div class="ttdef"><b>Definition:</b> <a href="list_8c_source.html#l00136">list.c:136</a></div></div>
+<div class="ttc" id="list_8h_html_abd5ef8a703e792987b81698a0fbf44f8"><div class="ttname"><a href="list_8h.html#abd5ef8a703e792987b81698a0fbf44f8">delete_node</a></div><div class="ttdeci">void delete_node(node *n)</div><div class="ttdoc">Distrugge un nodo. </div><div class="ttdef"><b>Definition:</b> <a href="list_8c_source.html#l00150">list.c:150</a></div></div>
+<div class="ttc" id="list_8h_html_a136dea4dd005ed331e39905ce9f0ac73"><div class="ttname"><a href="list_8h.html#a136dea4dd005ed331e39905ce9f0ac73">new_list</a></div><div class="ttdeci">list * new_list(void)</div><div class="ttdoc">Costruisce una lista vuota. </div><div class="ttdef"><b>Definition:</b> <a href="list_8c_source.html#l00020">list.c:20</a></div></div>
+<div class="ttc" id="list_8h_html_a3c6c8ae91a3cb8db395000c69823896d"><div class="ttname"><a href="list_8h.html#a3c6c8ae91a3cb8db395000c69823896d">prev</a></div><div class="ttdeci">node * prev(const list *l, node *n)</div><div class="ttdoc">Restituisce l&#39;elemento precedente al nodo specificato della lista. </div><div class="ttdef"><b>Definition:</b> <a href="list_8c_source.html#l00069">list.c:69</a></div></div>
+<div class="ttc" id="person_8h_html"><div class="ttname"><a href="person_8h.html">person.h</a></div></div>
+<div class="ttc" id="list_8h_html_af229c82f813eca965696e102cfa363a6"><div class="ttname"><a href="list_8h.html#af229c82f813eca965696e102cfa363a6">tail</a></div><div class="ttdeci">node * tail(const list *l)</div><div class="ttdoc">Restituisce la coda della lista. </div><div class="ttdef"><b>Definition:</b> <a href="list_8c_source.html#l00050">list.c:50</a></div></div>
+<div class="ttc" id="list_8h_html_a85e4aa575405d81e9a97479b161b29a3"><div class="ttname"><a href="list_8h.html#a85e4aa575405d81e9a97479b161b29a3">content</a></div><div class="ttdeci">list_type content(node *n)</div><div class="ttdoc">Restituisce il contenuto di un nodo. </div><div class="ttdef"><b>Definition:</b> <a href="list_8c_source.html#l00038">list.c:38</a></div></div>
+<div class="ttc" id="list_8h_html_a0363b0d7b6a9c62cb93a1a70c7e00228"><div class="ttname"><a href="list_8h.html#a0363b0d7b6a9c62cb93a1a70c7e00228">next</a></div><div class="ttdeci">node * next(const list *l, node *n)</div><div class="ttdoc">Restituisce l&#39;elemento successivo al nodo specificato della lista. </div><div class="ttdef"><b>Definition:</b> <a href="list_8c_source.html#l00062">list.c:62</a></div></div>
+<div class="ttc" id="list_8h_html_a7827a40a9f31c3a0941f11f506104def"><div class="ttname"><a href="list_8h.html#a7827a40a9f31c3a0941f11f506104def">lookfor</a></div><div class="ttdeci">node * lookfor(const list *l, list_type content)</div><div class="ttdoc">Cerca un nodo della lista sulla base del contenuto. </div><div class="ttdef"><b>Definition:</b> <a href="list_8c_source.html#l00155">list.c:155</a></div></div>
+<div class="ttc" id="list_8h_html_adbaff95e281273e6b04391f96861529c"><div class="ttname"><a href="list_8h.html#adbaff95e281273e6b04391f96861529c">head</a></div><div class="ttdeci">node * head(const list *l)</div><div class="ttdoc">Restituisce la testa della lista. </div><div class="ttdef"><b>Definition:</b> <a href="list_8c_source.html#l00044">list.c:44</a></div></div>
+<div class="ttc" id="structlist__struct_html"><div class="ttname"><a href="structlist__struct.html">list_struct</a></div><div class="ttdef"><b>Definition:</b> <a href="list_8c_source.html#l00014">list.c:14</a></div></div>
+<div class="ttc" id="list_8h_html_ad0116a3d36ac9b7196518a70a4a02244"><div class="ttname"><a href="list_8h.html#ad0116a3d36ac9b7196518a70a4a02244">list_type</a></div><div class="ttdeci">person * list_type</div><div class="ttdoc">Contenuto nei nodi della lista. </div><div class="ttdef"><b>Definition:</b> <a href="list_8h_source.html#l00025">list.h:25</a></div></div>
+<div class="ttc" id="list_8h_html_ac364927357e20c2f6c04742378011464"><div class="ttname"><a href="list_8h.html#ac364927357e20c2f6c04742378011464">new_node</a></div><div class="ttdeci">node * new_node(list_type content)</div><div class="ttdoc">Costruisce un nuovo nodo. </div><div class="ttdef"><b>Definition:</b> <a href="list_8c_source.html#l00029">list.c:29</a></div></div>
+<div class="ttc" id="list_8h_html_a29151932c73cd1b314f372bceb18ddac"><div class="ttname"><a href="list_8h.html#a29151932c73cd1b314f372bceb18ddac">length</a></div><div class="ttdeci">int length(const list *l)</div><div class="ttdoc">Restituisce la lunghezza della lista. </div><div class="ttdef"><b>Definition:</b> <a href="list_8c_source.html#l00056">list.c:56</a></div></div>
+<div class="ttc" id="list_8h_html_a81773e39432aa697275778183935254c"><div class="ttname"><a href="list_8h.html#a81773e39432aa697275778183935254c">add_node</a></div><div class="ttdeci">void add_node(list *l, node *node_before, node *node_to_add)</div><div class="ttdoc">Aggiunge un nodo alla lista. </div><div class="ttdef"><b>Definition:</b> <a href="list_8c_source.html#l00076">list.c:76</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generato Mer 24 Giu 2015 22:48:23 per GeneratoreCodiceFiscale_daFile da &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.9.1
+</small></address>
+</body>
+</html>

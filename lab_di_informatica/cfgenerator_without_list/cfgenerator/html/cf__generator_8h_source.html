@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.9.1"/>
+<title>Generatore_di_Codice_Fiscale:  File sorgente src/cf_generator.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Generatore_di_Codice_Fiscale
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generato da Doxygen 1.8.9.1 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Pagina&#160;Principale</span></a></li>
+      <li><a href="annotated.html"><span>Strutture&#160;dati</span></a></li>
+      <li class="current"><a href="files.html"><span>File</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Elenco&#160;dei&#160;file</span></a></li>
+      <li><a href="globals.html"><span>Elementi&#160;globali</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">cf_generator.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="cf__generator_8h.html">Vai alla documentazione di questo file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef CF_GENERATOR_H_</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define CF_GENERATOR_H_</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;stdbool.h&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
+<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="cf__generator_8h.html#ae63b11fda2e756895e3ddd4965decd4f">    9</a></span>&#160;<span class="preprocessor">#define VOW_MAX 3</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="cf__generator_8h.html#a81b39ebd107f2331e41e056b20679edb">   13</a></span>&#160;<span class="preprocessor">#define CON_MAX 3</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="cf__generator_8h.html#a2a24e74e8bfe7868d370d7dfea413e0c">   18</a></span>&#160;<span class="preprocessor">#define COD_MAX 3</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keywordtype">void</span> <a class="code" href="cf__generator_8h.html#a88cec21ddb7d3ceedd6ecbcbdc93132e">surname2code</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> org_surname[], <span class="keywordtype">char</span> coded_surname[]);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="keywordtype">void</span> <a class="code" href="cf__generator_8h.html#a21a746c04279a6d0eb6ea21a0c0aacf0">name2code</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> name[], <span class="keywordtype">char</span> coded_name[]);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="keywordtype">void</span> <a class="code" href="cf__generator_8h.html#a9bc8c5ed6f5c0944ae3fe7bad7179e9d">date2code</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> date[], <span class="keyword">const</span> <span class="keywordtype">char</span> sex, <span class="keywordtype">char</span> coded_date[]);</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="keywordtype">char</span> <a class="code" href="cf__generator_8h.html#a76259ac741eeeaf9d3a1fd853171f04f">cf_ctrl_code</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> coded_surname[], <span class="keyword">const</span> <span class="keywordtype">char</span> coded_name[],</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;     <span class="keyword">const</span> <span class="keywordtype">char</span> coded_date[], <span class="keyword">const</span> <span class="keywordtype">char</span> coded_birth_place[]);</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="keywordtype">void</span> <a class="code" href="cf__generator_8h.html#a7c31ecef7f557545d63d53ba5df95f49">cf_generator</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> surname[], <span class="keyword">const</span> <span class="keywordtype">char</span> name[], <span class="keyword">const</span> <span class="keywordtype">char</span> date[],</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;     <span class="keyword">const</span> <span class="keywordtype">char</span> birth_place_code[], <span class="keyword">const</span> <span class="keywordtype">char</span> sex, <span class="keywordtype">char</span> cf[]);</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="cf__generator_8h.html#ac4d5e7a318159bdffb48b58f5a07dd4c">get_coded_place</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> place[], <span class="keywordtype">char</span> coded_place[]);</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* CF_GENERATOR_H_ */</span><span class="preprocessor"></span></div>
+<div class="ttc" id="cf__generator_8h_html_a21a746c04279a6d0eb6ea21a0c0aacf0"><div class="ttname"><a href="cf__generator_8h.html#a21a746c04279a6d0eb6ea21a0c0aacf0">name2code</a></div><div class="ttdeci">void name2code(const char name[], char coded_name[])</div><div class="ttdoc">Codifica il nome nel formato per codice fiscale. </div><div class="ttdef"><b>Definition:</b> <a href="cf__generator_8c_source.html#l00054">cf_generator.c:54</a></div></div>
+<div class="ttc" id="cf__generator_8h_html_a7c31ecef7f557545d63d53ba5df95f49"><div class="ttname"><a href="cf__generator_8h.html#a7c31ecef7f557545d63d53ba5df95f49">cf_generator</a></div><div class="ttdeci">void cf_generator(const char surname[], const char name[], const char date[], const char birth_place_code[], const char sex, char cf[])</div><div class="ttdoc">Calcola il codice fiscale di una persona. </div><div class="ttdef"><b>Definition:</b> <a href="cf__generator_8c_source.html#l00167">cf_generator.c:167</a></div></div>
+<div class="ttc" id="cf__generator_8h_html_ac4d5e7a318159bdffb48b58f5a07dd4c"><div class="ttname"><a href="cf__generator_8h.html#ac4d5e7a318159bdffb48b58f5a07dd4c">get_coded_place</a></div><div class="ttdeci">bool get_coded_place(const char place[], char coded_place[])</div><div class="ttdoc">Calcola il codice catastale di una citta&#39; se esiste. </div><div class="ttdef"><b>Definition:</b> <a href="cf__generator_8c_source.html#l00200">cf_generator.c:200</a></div></div>
+<div class="ttc" id="cf__generator_8h_html_a76259ac741eeeaf9d3a1fd853171f04f"><div class="ttname"><a href="cf__generator_8h.html#a76259ac741eeeaf9d3a1fd853171f04f">cf_ctrl_code</a></div><div class="ttdeci">char cf_ctrl_code(const char coded_surname[], const char coded_name[], const char coded_date[], const char coded_birth_place[])</div><div class="ttdoc">Calcola il codice di controllo di un codice fiscale (l&#39;ultimo carattere). </div><div class="ttdef"><b>Definition:</b> <a href="cf__generator_8c_source.html#l00134">cf_generator.c:134</a></div></div>
+<div class="ttc" id="cf__generator_8h_html_a88cec21ddb7d3ceedd6ecbcbdc93132e"><div class="ttname"><a href="cf__generator_8h.html#a88cec21ddb7d3ceedd6ecbcbdc93132e">surname2code</a></div><div class="ttdeci">void surname2code(const char org_surname[], char coded_surname[])</div><div class="ttdoc">Codifica il cognome nel formato per codice fiscale. </div><div class="ttdef"><b>Definition:</b> <a href="cf__generator_8c_source.html#l00013">cf_generator.c:13</a></div></div>
+<div class="ttc" id="cf__generator_8h_html_a9bc8c5ed6f5c0944ae3fe7bad7179e9d"><div class="ttname"><a href="cf__generator_8h.html#a9bc8c5ed6f5c0944ae3fe7bad7179e9d">date2code</a></div><div class="ttdeci">void date2code(const char date[], const char sex, char coded_date[])</div><div class="ttdoc">Codifica la data di nascita nel formato per codice fiscale. </div><div class="ttdef"><b>Definition:</b> <a href="cf__generator_8c_source.html#l00113">cf_generator.c:113</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generato Ven 15 Mag 2015 17:15:50 per Generatore_di_Codice_Fiscale da &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.9.1
+</small></address>
+</body>
+</html>

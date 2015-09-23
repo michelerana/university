@@ -1,0 +1,285 @@
+23:19:45 **** Rebuild of configuration Debug for project cfgenerator ****
+Info: Internal Builder is used for build
+gcc -std=c99 "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src\\list" "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\list\\list.o" "..\\src\\list\\list.c" 
+gcc -std=c99 "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src\\list" "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utils\\cfutils.o" "..\\src\\utils\\cfutils.c" 
+gcc -std=c99 "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src\\list" "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cfgenerator.o" "..\\src\\cfgenerator.c" 
+ar -r libcfgenerator.a "src\\utils\\cfutils.o" "src\\list\\list.o" "src\\cfgenerator.o" 
+ar: creating libcfgenerator.a
+23:19:49 **** Rebuild of configuration Debug for project main_cfgenerator ****
+Info: Internal Builder is used for build
+gcc -std=c99 "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc "-LC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\Debug" -o main_cfgenerator "src\\main.o" -lcfgenerator 
+23:19:50 **** Rebuild of configuration Debug for project test_cfutils ****
+Info: Internal Builder is used for build
+gcc -std=c99 "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src" "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src\\list" "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src\\utils" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test_cfutils.o" "..\\src\\test_cfutils.c" 
+gcc "-LC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\Debug" -o test_cfutils.exe "src\\test_cfutils.o" -lcunit -lcfgenerator 
+23:20:22 **** Clean-only build of configuration Debug for project cfgenerator ****
+rm -rf src/list/list.o libcfgenerator.a src/list/list.d src/cfgenerator.o src/utils/cfutils.d src/cfgenerator.d src/utils/cfutils.o 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;C:/Program Files/Java/jre1.8.0_45/bin/client;C:/Program Files/Java/jre1.8.0_45/bin;C:/Program Files/Java/jre1.8.0_45/lib/i386;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\MinGW\bin;C:\Program Files\Skype\Phone\;C:\Program Files\GtkSharp\2.12\bin;C:\eclipse]
+
+23:20:23 **** Clean-only build of configuration Debug for project cfgenerator ****
+23:20:23 **** Clean-only build of configuration Debug for project main_cfgenerator ****
+rm -rf src/main.o src/main.d main_cfgenerator 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;C:/Program Files/Java/jre1.8.0_45/bin/client;C:/Program Files/Java/jre1.8.0_45/bin;C:/Program Files/Java/jre1.8.0_45/lib/i386;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\MinGW\bin;C:\Program Files\Skype\Phone\;C:\Program Files\GtkSharp\2.12\bin;C:\eclipse]
+
+23:20:23 **** Clean-only build of configuration Debug for project main_cfgenerator ****
+23:20:23 **** Clean-only build of configuration Debug for project test_cfutils ****
+rm -rf test_cfutils.exe src/test_cfutils.o src/test_cfutils.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;C:/Program Files/Java/jre1.8.0_45/bin/client;C:/Program Files/Java/jre1.8.0_45/bin;C:/Program Files/Java/jre1.8.0_45/lib/i386;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\MinGW\bin;C:\Program Files\Skype\Phone\;C:\Program Files\GtkSharp\2.12\bin;C:\eclipse]
+
+23:20:23 **** Clean-only build of configuration Debug for project test_cfutils ****
+23:20:26 **** Rebuild of configuration Debug for project cfgenerator ****
+Info: Internal Builder is used for build
+gcc -std=c99 "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src\\list" "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utils\\cfutils.o" "..\\src\\utils\\cfutils.c" 
+gcc -std=c99 "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src\\list" "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\list\\list.o" "..\\src\\list\\list.c" 
+gcc -std=c99 "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src\\list" "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cfgenerator.o" "..\\src\\cfgenerator.c" 
+ar -r libcfgenerator.a "src\\utils\\cfutils.o" "src\\list\\list.o" "src\\cfgenerator.o" 
+ar: creating libcfgenerator.a
+23:20:27 **** Rebuild of configuration Debug for project main_cfgenerator ****
+Info: Internal Builder is used for build
+gcc -std=c99 "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc "-LC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\Debug" -o main_cfgenerator "src\\main.o" -lcfgenerator 
+23:20:28 **** Rebuild of configuration Debug for project test_cfutils ****
+Info: Internal Builder is used for build
+gcc -std=c99 "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src" "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src\\list" "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src\\utils" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test_cfutils.o" "..\\src\\test_cfutils.c" 
+gcc "-LC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\Debug" -o test_cfutils.exe "src\\test_cfutils.o" -lcunit -lcfgenerator 
+23:20:38 **** Clean-only build of configuration Debug for project cfgenerator ****
+rm -rf src/list/list.o libcfgenerator.a src/list/list.d src/cfgenerator.o src/utils/cfutils.d src/cfgenerator.d src/utils/cfutils.o 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;C:/Program Files/Java/jre1.8.0_45/bin/client;C:/Program Files/Java/jre1.8.0_45/bin;C:/Program Files/Java/jre1.8.0_45/lib/i386;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\MinGW\bin;C:\Program Files\Skype\Phone\;C:\Program Files\GtkSharp\2.12\bin;C:\eclipse]
+
+23:20:38 **** Clean-only build of configuration Debug for project cfgenerator ****
+23:20:38 **** Clean-only build of configuration Debug for project main_cfgenerator ****
+rm -rf src/main.o src/main.d main_cfgenerator 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;C:/Program Files/Java/jre1.8.0_45/bin/client;C:/Program Files/Java/jre1.8.0_45/bin;C:/Program Files/Java/jre1.8.0_45/lib/i386;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\MinGW\bin;C:\Program Files\Skype\Phone\;C:\Program Files\GtkSharp\2.12\bin;C:\eclipse]
+
+23:20:38 **** Clean-only build of configuration Debug for project main_cfgenerator ****
+23:20:38 **** Clean-only build of configuration Debug for project test_cfutils ****
+rm -rf test_cfutils.exe src/test_cfutils.o src/test_cfutils.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;C:/Program Files/Java/jre1.8.0_45/bin/client;C:/Program Files/Java/jre1.8.0_45/bin;C:/Program Files/Java/jre1.8.0_45/lib/i386;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\MinGW\bin;C:\Program Files\Skype\Phone\;C:\Program Files\GtkSharp\2.12\bin;C:\eclipse]
+
+23:20:38 **** Clean-only build of configuration Debug for project test_cfutils ****
+23:20:40 **** Rebuild of configuration Debug for project cfgenerator ****
+Info: Internal Builder is used for build
+gcc -std=c99 "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src\\list" "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\list\\list.o" "..\\src\\list\\list.c" 
+gcc -std=c99 "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src\\list" "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cfgenerator.o" "..\\src\\cfgenerator.c" 
+gcc -std=c99 "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src\\list" "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utils\\cfutils.o" "..\\src\\utils\\cfutils.c" 
+ar -r libcfgenerator.a "src\\utils\\cfutils.o" "src\\list\\list.o" "src\\cfgenerator.o" 
+ar: creating libcfgenerator.a
+23:20:41 **** Rebuild of configuration Debug for project main_cfgenerator ****
+Info: Internal Builder is used for build
+gcc -std=c99 "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc "-LC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\Debug" -o main_cfgenerator "src\\main.o" -lcfgenerator 
+23:20:42 **** Rebuild of configuration Debug for project test_cfutils ****
+Info: Internal Builder is used for build
+gcc -std=c99 "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src" "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src\\list" "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src\\utils" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test_cfutils.o" "..\\src\\test_cfutils.c" 
+gcc "-LC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\Debug" -o test_cfutils.exe "src\\test_cfutils.o" -lcunit -lcfgenerator 
+Info: Nothing to build for cfgenerator
+Info: Nothing to build for main_cfgenerator
+Info: Nothing to build for test_cfutils
+23:21:26 **** Clean-only build of configuration Debug for project cfgenerator ****
+rm -rf src/list/list.o libcfgenerator.a src/list/list.d src/cfgenerator.o src/utils/cfutils.d src/cfgenerator.d src/utils/cfutils.o 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;C:/Program Files/Java/jre1.8.0_45/bin/client;C:/Program Files/Java/jre1.8.0_45/bin;C:/Program Files/Java/jre1.8.0_45/lib/i386;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\MinGW\bin;C:\Program Files\Skype\Phone\;C:\Program Files\GtkSharp\2.12\bin;C:\eclipse]
+
+23:21:27 **** Clean-only build of configuration Debug for project cfgenerator ****
+23:21:27 **** Clean-only build of configuration Debug for project main_cfgenerator ****
+rm -rf src/main.o src/main.d main_cfgenerator 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;C:/Program Files/Java/jre1.8.0_45/bin/client;C:/Program Files/Java/jre1.8.0_45/bin;C:/Program Files/Java/jre1.8.0_45/lib/i386;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\MinGW\bin;C:\Program Files\Skype\Phone\;C:\Program Files\GtkSharp\2.12\bin;C:\eclipse]
+
+23:21:27 **** Clean-only build of configuration Debug for project main_cfgenerator ****
+23:21:27 **** Clean-only build of configuration Debug for project test_cfutils ****
+rm -rf test_cfutils.exe src/test_cfutils.o src/test_cfutils.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;C:/Program Files/Java/jre1.8.0_45/bin/client;C:/Program Files/Java/jre1.8.0_45/bin;C:/Program Files/Java/jre1.8.0_45/lib/i386;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\MinGW\bin;C:\Program Files\Skype\Phone\;C:\Program Files\GtkSharp\2.12\bin;C:\eclipse]
+
+23:21:27 **** Clean-only build of configuration Debug for project test_cfutils ****
+23:21:28 **** Rebuild of configuration Debug for project cfgenerator ****
+Info: Internal Builder is used for build
+gcc -std=c99 "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src\\list" "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\list\\list.o" "..\\src\\list\\list.c" 
+gcc -std=c99 "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src\\list" "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utils\\cfutils.o" "..\\src\\utils\\cfutils.c" 
+gcc -std=c99 "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src\\list" "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cfgenerator.o" "..\\src\\cfgenerator.c" 
+ar -r libcfgenerator.a "src\\utils\\cfutils.o" "src\\list\\list.o" "src\\cfgenerator.o" 
+ar: creating libcfgenerator.a
+23:21:29 **** Rebuild of configuration Debug for project main_cfgenerator ****
+Info: Internal Builder is used for build
+gcc -std=c99 "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc "-LC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\Debug" -o main_cfgenerator "src\\main.o" -lcfgenerator 
+23:21:30 **** Rebuild of configuration Debug for project test_cfutils ****
+Info: Internal Builder is used for build
+gcc -std=c99 "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src" "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src\\list" "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src\\utils" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test_cfutils.o" "..\\src\\test_cfutils.c" 
+gcc "-LC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\Debug" -o test_cfutils.exe "src\\test_cfutils.o" -lcunit -lcfgenerator 
+23:21:57 **** Clean-only build of configuration Debug for project cfgenerator ****
+rm -rf src/list/list.o libcfgenerator.a src/list/list.d src/cfgenerator.o src/utils/cfutils.d src/cfgenerator.d src/utils/cfutils.o 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;C:/Program Files/Java/jre1.8.0_45/bin/client;C:/Program Files/Java/jre1.8.0_45/bin;C:/Program Files/Java/jre1.8.0_45/lib/i386;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\MinGW\bin;C:\Program Files\Skype\Phone\;C:\Program Files\GtkSharp\2.12\bin;C:\eclipse]
+
+23:21:57 **** Clean-only build of configuration Debug for project cfgenerator ****
+23:21:57 **** Clean-only build of configuration Debug for project main_cfgenerator ****
+rm -rf src/main.o src/main.d main_cfgenerator 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;C:/Program Files/Java/jre1.8.0_45/bin/client;C:/Program Files/Java/jre1.8.0_45/bin;C:/Program Files/Java/jre1.8.0_45/lib/i386;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\MinGW\bin;C:\Program Files\Skype\Phone\;C:\Program Files\GtkSharp\2.12\bin;C:\eclipse]
+
+23:21:57 **** Clean-only build of configuration Debug for project main_cfgenerator ****
+23:21:57 **** Clean-only build of configuration Debug for project test_cfutils ****
+rm -rf test_cfutils.exe src/test_cfutils.o src/test_cfutils.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;C:/Program Files/Java/jre1.8.0_45/bin/client;C:/Program Files/Java/jre1.8.0_45/bin;C:/Program Files/Java/jre1.8.0_45/lib/i386;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\MinGW\bin;C:\Program Files\Skype\Phone\;C:\Program Files\GtkSharp\2.12\bin;C:\eclipse]
+
+23:21:57 **** Clean-only build of configuration Debug for project test_cfutils ****
+23:22:41 **** Rebuild of configuration Debug for project cfgenerator ****
+Info: Internal Builder is used for build
+gcc -std=c99 "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src\\list" "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\list\\list.o" "..\\src\\list\\list.c" 
+gcc -std=c99 "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src\\list" "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cfgenerator.o" "..\\src\\cfgenerator.c" 
+gcc -std=c99 "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src\\list" "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utils\\cfutils.o" "..\\src\\utils\\cfutils.c" 
+ar -r libcfgenerator.a "src\\utils\\cfutils.o" "src\\list\\list.o" "src\\cfgenerator.o" 
+ar: creating libcfgenerator.a
+23:22:43 **** Rebuild of configuration Debug for project main_cfgenerator ****
+Info: Internal Builder is used for build
+gcc -std=c99 "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc "-LC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\Debug" -o main_cfgenerator "src\\main.o" -lcfgenerator 
+23:22:44 **** Rebuild of configuration Debug for project test_cfutils ****
+Info: Internal Builder is used for build
+gcc -std=c99 "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src" "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src\\list" "-IC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\src\\utils" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test_cfutils.o" "..\\src\\test_cfutils.c" 
+gcc "-LC:\\Users\\Leo\\Desktop\\workspaces\\prova2_63401_641344\\cfgenerator\\Debug" -o test_cfutils.exe "src\\test_cfutils.o" -lcunit -lcfgenerator 
+14:28:20 **** Clean-only build of configuration Debug for project cfgenerator ****
+rm -rf src/cfgenerator.o src/cfgenerator.d libcfgenerator.a src/utils/cfutils.o src/utils/cfutils.d src/list/list.d src/list/list.o 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;C:/Program Files/Java/jre1.8.0_45/bin/client;C:/Program Files/Java/jre1.8.0_45/bin;C:/Program Files/Java/jre1.8.0_45/lib/i386;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\MinGW\bin;C:\Program Files\Skype\Phone\;C:\Program Files\GtkSharp\2.12\bin;C:\eclipse]
+
+14:28:20 **** Clean-only build of configuration Debug for project cfgenerator ****
+14:28:20 **** Clean-only build of configuration Debug for project main_cfgenerator ****
+rm -rf src/main.o main_cfgenerator src/main.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;C:/Program Files/Java/jre1.8.0_45/bin/client;C:/Program Files/Java/jre1.8.0_45/bin;C:/Program Files/Java/jre1.8.0_45/lib/i386;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\MinGW\bin;C:\Program Files\Skype\Phone\;C:\Program Files\GtkSharp\2.12\bin;C:\eclipse]
+
+14:28:21 **** Clean-only build of configuration Debug for project main_cfgenerator ****
+14:28:21 **** Clean-only build of configuration Debug for project test_cfutils ****
+rm -rf src/test_cfutils.o test_cfutils.exe src/test_cfutils.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;C:/Program Files/Java/jre1.8.0_45/bin/client;C:/Program Files/Java/jre1.8.0_45/bin;C:/Program Files/Java/jre1.8.0_45/lib/i386;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\MinGW\bin;C:\Program Files\Skype\Phone\;C:\Program Files\GtkSharp\2.12\bin;C:\eclipse]
+
+14:28:21 **** Clean-only build of configuration Debug for project test_cfutils ****
+14:28:26 **** Rebuild of configuration Debug for project cfgenerator ****
+Info: Internal Builder is used for build
+gcc -std=c99 "-IC:\\Users\\Leo\\Desktop\\cfgenerator_with_list\\cfgenerator\\src\\list" "-IC:\\Users\\Leo\\Desktop\\cfgenerator_with_list\\cfgenerator\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cfgenerator.o" "..\\src\\cfgenerator.c" 
+gcc -std=c99 "-IC:\\Users\\Leo\\Desktop\\cfgenerator_with_list\\cfgenerator\\src\\list" "-IC:\\Users\\Leo\\Desktop\\cfgenerator_with_list\\cfgenerator\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utils\\cfutils.o" "..\\src\\utils\\cfutils.c" 
+gcc -std=c99 "-IC:\\Users\\Leo\\Desktop\\cfgenerator_with_list\\cfgenerator\\src\\list" "-IC:\\Users\\Leo\\Desktop\\cfgenerator_with_list\\cfgenerator\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\list\\list.o" "..\\src\\list\\list.c" 
+ar -r libcfgenerator.a "src\\utils\\cfutils.o" "src\\list\\list.o" "src\\cfgenerator.o" 
+ar: creating libcfgenerator.a
+14:28:28 **** Rebuild of configuration Debug for project main_cfgenerator ****
+Info: Internal Builder is used for build
+gcc -std=c99 "-IC:\\Users\\Leo\\Desktop\\cfgenerator_with_list\\cfgenerator\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc "-LC:\\Users\\Leo\\Desktop\\cfgenerator_with_list\\cfgenerator\\Debug" -o main_cfgenerator "src\\main.o" -lcfgenerator 
+14:28:29 **** Rebuild of configuration Debug for project test_cfutils ****
+Info: Internal Builder is used for build
+gcc -std=c99 "-IC:\\Users\\Leo\\Desktop\\cfgenerator_with_list\\cfgenerator\\src" "-IC:\\Users\\Leo\\Desktop\\cfgenerator_with_list\\cfgenerator\\src\\list" "-IC:\\Users\\Leo\\Desktop\\cfgenerator_with_list\\cfgenerator\\src\\utils" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test_cfutils.o" "..\\src\\test_cfutils.c" 
+gcc "-LC:\\Users\\Leo\\Desktop\\cfgenerator_with_list\\cfgenerator\\Debug" -o test_cfutils.exe "src\\test_cfutils.o" -lcunit -lcfgenerator 
+14:33:34 **** Clean-only build of configuration Debug for project cfgenerator ****
+rm -rf src/cfgenerator.o src/cfgenerator.d libcfgenerator.a src/utils/cfutils.o src/utils/cfutils.d src/list/list.d src/list/list.o 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;C:/Program Files/Java/jre1.8.0_45/bin/client;C:/Program Files/Java/jre1.8.0_45/bin;C:/Program Files/Java/jre1.8.0_45/lib/i386;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\MinGW\bin;C:\Program Files\Skype\Phone\;C:\Program Files\GtkSharp\2.12\bin;C:\eclipse]
+
+14:33:34 **** Clean-only build of configuration Debug for project cfgenerator ****
+14:33:34 **** Clean-only build of configuration Debug for project main_cfgenerator ****
+rm -rf src/main.o main_cfgenerator src/main.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;C:/Program Files/Java/jre1.8.0_45/bin/client;C:/Program Files/Java/jre1.8.0_45/bin;C:/Program Files/Java/jre1.8.0_45/lib/i386;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\MinGW\bin;C:\Program Files\Skype\Phone\;C:\Program Files\GtkSharp\2.12\bin;C:\eclipse]
+
+14:33:34 **** Clean-only build of configuration Debug for project main_cfgenerator ****
+14:33:34 **** Clean-only build of configuration Debug for project test_cfutils ****
+rm -rf src/test_cfutils.o test_cfutils.exe src/test_cfutils.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;C:/Program Files/Java/jre1.8.0_45/bin/client;C:/Program Files/Java/jre1.8.0_45/bin;C:/Program Files/Java/jre1.8.0_45/lib/i386;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\MinGW\bin;C:\Program Files\Skype\Phone\;C:\Program Files\GtkSharp\2.12\bin;C:\eclipse]
+
+14:33:34 **** Clean-only build of configuration Debug for project test_cfutils ****
+14:35:07 **** Rebuild of configuration Debug for project cfgenerator ****
+Info: Internal Builder is used for build
+gcc -std=c99 "-IC:\\Users\\Leo\\Desktop\\cfgenerator_with_list\\cfgenerator\\src\\list" "-IC:\\Users\\Leo\\Desktop\\cfgenerator_with_list\\cfgenerator\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utils\\cfutils.o" "..\\src\\utils\\cfutils.c" 
+gcc -std=c99 "-IC:\\Users\\Leo\\Desktop\\cfgenerator_with_list\\cfgenerator\\src\\list" "-IC:\\Users\\Leo\\Desktop\\cfgenerator_with_list\\cfgenerator\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\cfgenerator.o" "..\\src\\cfgenerator.c" 
+gcc -std=c99 "-IC:\\Users\\Leo\\Desktop\\cfgenerator_with_list\\cfgenerator\\src\\list" "-IC:\\Users\\Leo\\Desktop\\cfgenerator_with_list\\cfgenerator\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\list\\list.o" "..\\src\\list\\list.c" 
+ar -r libcfgenerator.a "src\\utils\\cfutils.o" "src\\list\\list.o" "src\\cfgenerator.o" 
+ar: creating libcfgenerator.a
+14:35:08 **** Rebuild of configuration Debug for project main_cfgenerator ****
+Info: Internal Builder is used for build
+gcc -std=c99 "-IC:\\Users\\Leo\\Desktop\\cfgenerator_with_list\\cfgenerator\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc "-LC:\\Users\\Leo\\Desktop\\cfgenerator_with_list\\cfgenerator\\Debug" -o main_cfgenerator "src\\main.o" -lcfgenerator 
+14:35:09 **** Rebuild of configuration Debug for project test_cfutils ****
+Info: Internal Builder is used for build
+gcc -std=c99 "-IC:\\Users\\Leo\\Desktop\\cfgenerator_with_list\\cfgenerator\\src" "-IC:\\Users\\Leo\\Desktop\\cfgenerator_with_list\\cfgenerator\\src\\list" "-IC:\\Users\\Leo\\Desktop\\cfgenerator_with_list\\cfgenerator\\src\\utils" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test_cfutils.o" "..\\src\\test_cfutils.c" 
+gcc "-LC:\\Users\\Leo\\Desktop\\cfgenerator_with_list\\cfgenerator\\Debug" -o test_cfutils.exe "src\\test_cfutils.o" -lcunit -lcfgenerator 
+Info: Nothing to build for test_cfutils
+14:39:31 **** Clean-only build of configuration Debug for project cfgenerator ****
+rm -rf src/cfgenerator.o src/cfgenerator.d libcfgenerator.a src/utils/cfutils.o src/utils/cfutils.d src/list/list.d src/list/list.o 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;C:/Program Files/Java/jre1.8.0_45/bin/client;C:/Program Files/Java/jre1.8.0_45/bin;C:/Program Files/Java/jre1.8.0_45/lib/i386;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\MinGW\bin;C:\Program Files\Skype\Phone\;C:\Program Files\GtkSharp\2.12\bin;C:\eclipse]
+
+14:39:32 **** Clean-only build of configuration Debug for project cfgenerator ****
+14:39:32 **** Clean-only build of configuration Debug for project main_cfgenerator ****
+rm -rf src/main.o main_cfgenerator src/main.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;C:/Program Files/Java/jre1.8.0_45/bin/client;C:/Program Files/Java/jre1.8.0_45/bin;C:/Program Files/Java/jre1.8.0_45/lib/i386;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\MinGW\bin;C:\Program Files\Skype\Phone\;C:\Program Files\GtkSharp\2.12\bin;C:\eclipse]
+
+14:39:32 **** Clean-only build of configuration Debug for project main_cfgenerator ****
+14:39:32 **** Clean-only build of configuration Debug for project test_cfutils ****
+rm -rf src/test_cfutils.o test_cfutils.exe src/test_cfutils.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;C:/Program Files/Java/jre1.8.0_45/bin/client;C:/Program Files/Java/jre1.8.0_45/bin;C:/Program Files/Java/jre1.8.0_45/lib/i386;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\MinGW\bin;C:\Program Files\Skype\Phone\;C:\Program Files\GtkSharp\2.12\bin;C:\eclipse]
+
+14:39:32 **** Clean-only build of configuration Debug for project test_cfutils ****
+14:39:39 **** Clean-only build of configuration Debug for project test_cfutils ****
+rm -rf src/test_cfutils.o test_cfutils.exe src/test_cfutils.d 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;C:/Program Files/Java/jre1.8.0_45/bin/client;C:/Program Files/Java/jre1.8.0_45/bin;C:/Program Files/Java/jre1.8.0_45/lib/i386;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\MinGW\bin;C:\Program Files\Skype\Phone\;C:\Program Files\GtkSharp\2.12\bin;C:\eclipse]
+
+14:39:39 **** Clean-only build of configuration Debug for project test_cfutils ****

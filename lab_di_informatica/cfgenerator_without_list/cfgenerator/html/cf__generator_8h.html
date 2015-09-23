@@ -1,0 +1,482 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.9.1"/>
+<title>Generatore_di_Codice_Fiscale: Riferimenti per il file src/cf_generator.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Generatore_di_Codice_Fiscale
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generato da Doxygen 1.8.9.1 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Pagina&#160;Principale</span></a></li>
+      <li><a href="annotated.html"><span>Strutture&#160;dati</span></a></li>
+      <li class="current"><a href="files.html"><span>File</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Elenco&#160;dei&#160;file</span></a></li>
+      <li><a href="globals.html"><span>Elementi&#160;globali</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#define-members">Definizioni</a> &#124;
+<a href="#func-members">Funzioni</a>  </div>
+  <div class="headertitle">
+<div class="title">Riferimenti per il file cf_generator.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;stdbool.h&gt;</code><br />
+</div>
+<p><a href="cf__generator_8h_source.html">Vai al codice sorgente di questo file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Definizioni</h2></td></tr>
+<tr class="memitem:ae63b11fda2e756895e3ddd4965decd4f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cf__generator_8h.html#ae63b11fda2e756895e3ddd4965decd4f">VOW_MAX</a>&#160;&#160;&#160;3</td></tr>
+<tr class="memdesc:ae63b11fda2e756895e3ddd4965decd4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lunghezza massima del vettore di vocali del codice fiscale.  <a href="#ae63b11fda2e756895e3ddd4965decd4f">Continua...</a><br /></td></tr>
+<tr class="separator:ae63b11fda2e756895e3ddd4965decd4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81b39ebd107f2331e41e056b20679edb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cf__generator_8h.html#a81b39ebd107f2331e41e056b20679edb">CON_MAX</a>&#160;&#160;&#160;3</td></tr>
+<tr class="memdesc:a81b39ebd107f2331e41e056b20679edb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lunghezza massima del vettore di consonanti del codice fiscale.  <a href="#a81b39ebd107f2331e41e056b20679edb">Continua...</a><br /></td></tr>
+<tr class="separator:a81b39ebd107f2331e41e056b20679edb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a24e74e8bfe7868d370d7dfea413e0c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cf__generator_8h.html#a2a24e74e8bfe7868d370d7dfea413e0c">COD_MAX</a>&#160;&#160;&#160;3</td></tr>
+<tr class="memdesc:a2a24e74e8bfe7868d370d7dfea413e0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lunghezza massima del vettore contenente i caratteri del codice fiscale (cognome o nome)  <a href="#a2a24e74e8bfe7868d370d7dfea413e0c">Continua...</a><br /></td></tr>
+<tr class="separator:a2a24e74e8bfe7868d370d7dfea413e0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Funzioni</h2></td></tr>
+<tr class="memitem:a88cec21ddb7d3ceedd6ecbcbdc93132e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cf__generator_8h.html#a88cec21ddb7d3ceedd6ecbcbdc93132e">surname2code</a> (const char org_surname[], char coded_surname[])</td></tr>
+<tr class="memdesc:a88cec21ddb7d3ceedd6ecbcbdc93132e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Codifica il cognome nel formato per codice fiscale.  <a href="#a88cec21ddb7d3ceedd6ecbcbdc93132e">Continua...</a><br /></td></tr>
+<tr class="separator:a88cec21ddb7d3ceedd6ecbcbdc93132e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21a746c04279a6d0eb6ea21a0c0aacf0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cf__generator_8h.html#a21a746c04279a6d0eb6ea21a0c0aacf0">name2code</a> (const char name[], char coded_name[])</td></tr>
+<tr class="memdesc:a21a746c04279a6d0eb6ea21a0c0aacf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Codifica il nome nel formato per codice fiscale.  <a href="#a21a746c04279a6d0eb6ea21a0c0aacf0">Continua...</a><br /></td></tr>
+<tr class="separator:a21a746c04279a6d0eb6ea21a0c0aacf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bc8c5ed6f5c0944ae3fe7bad7179e9d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cf__generator_8h.html#a9bc8c5ed6f5c0944ae3fe7bad7179e9d">date2code</a> (const char date[], const char sex, char coded_date[])</td></tr>
+<tr class="memdesc:a9bc8c5ed6f5c0944ae3fe7bad7179e9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Codifica la data di nascita nel formato per codice fiscale.  <a href="#a9bc8c5ed6f5c0944ae3fe7bad7179e9d">Continua...</a><br /></td></tr>
+<tr class="separator:a9bc8c5ed6f5c0944ae3fe7bad7179e9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76259ac741eeeaf9d3a1fd853171f04f"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cf__generator_8h.html#a76259ac741eeeaf9d3a1fd853171f04f">cf_ctrl_code</a> (const char coded_surname[], const char coded_name[], const char coded_date[], const char coded_birth_place[])</td></tr>
+<tr class="memdesc:a76259ac741eeeaf9d3a1fd853171f04f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calcola il codice di controllo di un codice fiscale (l'ultimo carattere).  <a href="#a76259ac741eeeaf9d3a1fd853171f04f">Continua...</a><br /></td></tr>
+<tr class="separator:a76259ac741eeeaf9d3a1fd853171f04f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c31ecef7f557545d63d53ba5df95f49"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cf__generator_8h.html#a7c31ecef7f557545d63d53ba5df95f49">cf_generator</a> (const char surname[], const char name[], const char date[], const char birth_place_code[], const char sex, char cf[])</td></tr>
+<tr class="memdesc:a7c31ecef7f557545d63d53ba5df95f49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calcola il codice fiscale di una persona.  <a href="#a7c31ecef7f557545d63d53ba5df95f49">Continua...</a><br /></td></tr>
+<tr class="separator:a7c31ecef7f557545d63d53ba5df95f49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4d5e7a318159bdffb48b58f5a07dd4c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cf__generator_8h.html#ac4d5e7a318159bdffb48b58f5a07dd4c">get_coded_place</a> (const char place[], char coded_place[])</td></tr>
+<tr class="memdesc:ac4d5e7a318159bdffb48b58f5a07dd4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calcola il codice catastale di una citta' se esiste.  <a href="#ac4d5e7a318159bdffb48b58f5a07dd4c">Continua...</a><br /></td></tr>
+<tr class="separator:ac4d5e7a318159bdffb48b58f5a07dd4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Documentazione delle definizioni</h2>
+<a class="anchor" id="a2a24e74e8bfe7868d370d7dfea413e0c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define COD_MAX&#160;&#160;&#160;3</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Lunghezza massima del vettore contenente i caratteri del codice fiscale (cognome o nome) </p>
+
+<p>Definizione alla linea <a class="el" href="cf__generator_8h_source.html#l00018">18</a> del file <a class="el" href="cf__generator_8h_source.html">cf_generator.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a81b39ebd107f2331e41e056b20679edb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CON_MAX&#160;&#160;&#160;3</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Lunghezza massima del vettore di consonanti del codice fiscale. </p>
+
+<p>Definizione alla linea <a class="el" href="cf__generator_8h_source.html#l00013">13</a> del file <a class="el" href="cf__generator_8h_source.html">cf_generator.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae63b11fda2e756895e3ddd4965decd4f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define VOW_MAX&#160;&#160;&#160;3</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Lunghezza massima del vettore di vocali del codice fiscale. </p>
+
+<p>Definizione alla linea <a class="el" href="cf__generator_8h_source.html#l00009">9</a> del file <a class="el" href="cf__generator_8h_source.html">cf_generator.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentazione delle funzioni</h2>
+<a class="anchor" id="a76259ac741eeeaf9d3a1fd853171f04f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char cf_ctrl_code </td>
+          <td>(</td>
+          <td class="paramtype">const char&#160;</td>
+          <td class="paramname"><em>coded_surname</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char&#160;</td>
+          <td class="paramname"><em>coded_name</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char&#160;</td>
+          <td class="paramname"><em>coded_date</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char&#160;</td>
+          <td class="paramname"><em>coded_birth_place</em>[]&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calcola il codice di controllo di un codice fiscale (l'ultimo carattere). </p>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">coded_surname</td><td>Cognome codificato (stringa da 3 caratteri). </td></tr>
+    <tr><td class="paramname">coded_name</td><td>Nome codificato (stringa da 3 caratteri). </td></tr>
+    <tr><td class="paramname">coded_date</td><td>Data di nascita codificata (stringa da 5 caratteri). </td></tr>
+    <tr><td class="paramname">coded_birth_place</td><td>Codice catastale del luogo di nascita (striga da 4 caratteri). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Restituisce</dt><dd>Carattere di controllo. </dd></dl>
+<dl class="section pre"><dt>Precondizione</dt><dd>coded_surname deve essere una stringa di 3 caratteri maiuscoli. </dd>
+<dd>
+coded_name deve essere una stringa di 3 caratteri maiuscoli. </dd>
+<dd>
+coded_date deve essere una stringa di 5 caratteri (2 numeri, 1 lettera, 2 numeri). </dd>
+<dd>
+birth_place_code deve essere una stringa di 4 caratteri (1 lettera, 3 numeri). </dd></dl>
+<dl class="section post"><dt>Postcondizione</dt><dd>il carattere di controllo deve essere una lettera maiuscola. </dd></dl>
+
+<p>Definizione alla linea <a class="el" href="cf__generator_8c_source.html#l00134">134</a> del file <a class="el" href="cf__generator_8c_source.html">cf_generator.c</a>.</p>
+
+<p>Referenzia <a class="el" href="cf__utilities_8h_source.html#l00014">EOS</a>, <a class="el" href="cf__utilities_8c_source.html#l00119">generate_acode()</a>, <a class="el" href="cf__utilities_8c_source.html#l00162">is_coded_date()</a>, <a class="el" href="cf__utilities_8c_source.html#l00158">is_coded_name()</a>, <a class="el" href="cf__utilities_8c_source.html#l00204">is_coded_place()</a>, <a class="el" href="cf__utilities_8c_source.html#l00147">is_coded_surname()</a>, e <a class="el" href="cf__utilities_8c_source.html#l00218">is_ctrl_code()</a>.</p>
+
+<p>Referenziato da <a class="el" href="cf__generator_8c_source.html#l00167">cf_generator()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7c31ecef7f557545d63d53ba5df95f49"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cf_generator </td>
+          <td>(</td>
+          <td class="paramtype">const char&#160;</td>
+          <td class="paramname"><em>surname</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char&#160;</td>
+          <td class="paramname"><em>name</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char&#160;</td>
+          <td class="paramname"><em>date</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char&#160;</td>
+          <td class="paramname"><em>birth_place_code</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char&#160;</td>
+          <td class="paramname"><em>sex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>cf</em>[]&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calcola il codice fiscale di una persona. </p>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">surname</td><td>Cognome. </td></tr>
+    <tr><td class="paramname">name</td><td>Nome. </td></tr>
+    <tr><td class="paramname">date</td><td>Data di nascita. </td></tr>
+    <tr><td class="paramname">birth_place_code</td><td>Codice catastale del luogo di nascita. </td></tr>
+    <tr><td class="paramname">sex</td><td>Sesso. </td></tr>
+    <tr><td class="paramname">cf</td><td>Codice fiscale (inizializzato a stringa vuota ""). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section pre"><dt>Precondizione</dt><dd>surname puo' contenere solo caratteri maiuscoli, spazi, apici. </dd>
+<dd>
+name puo' contenere solo caratteri maiuscoli, spazi, apici. </dd>
+<dd>
+date puo' contenere solo numeri e 2 caratteri separatori '/' </dd>
+<dd>
+date deve essere fornita nel formato GG/MM/AAAA con 0 &lt; GG &lt;= 31 ; 0 &lt; MM &lt;= 12; 1900 &lt; AAAA &lt;= 2015 </dd>
+<dd>
+birth_place_code codice catastale del luogo di nascita composto da una lettera e tre cifre </dd>
+<dd>
+sex puo' essere 'M' o 'F' </dd></dl>
+<dl class="section post"><dt>Postcondizione</dt><dd>cf deve essere una stringa composta da (in ordine): 6 lettere, 2 numeri, 1 lettera, 2 numeri, 1 lettera, 3 numeri, 1 lettera </dd></dl>
+
+<p>Definizione alla linea <a class="el" href="cf__generator_8c_source.html#l00167">167</a> del file <a class="el" href="cf__generator_8c_source.html">cf_generator.c</a>.</p>
+
+<p>Referenzia <a class="el" href="cf__generator_8c_source.html#l00134">cf_ctrl_code()</a>, <a class="el" href="cf__generator_8c_source.html#l00113">date2code()</a>, <a class="el" href="cf__utilities_8c_source.html#l00162">is_coded_date()</a>, <a class="el" href="cf__utilities_8c_source.html#l00158">is_coded_name()</a>, <a class="el" href="cf__utilities_8c_source.html#l00204">is_coded_place()</a>, <a class="el" href="cf__utilities_8c_source.html#l00147">is_coded_surname()</a>, <a class="el" href="cf__utilities_8c_source.html#l00218">is_ctrl_code()</a>, <a class="el" href="cf__utilities_8c_source.html#l00038">is_date()</a>, <a class="el" href="cf__utilities_8c_source.html#l00030">is_name()</a>, <a class="el" href="cf__utilities_8c_source.html#l00034">is_sex()</a>, <a class="el" href="cf__utilities_8c_source.html#l00007">is_surname()</a>, <a class="el" href="cf__generator_8c_source.html#l00054">name2code()</a>, e <a class="el" href="cf__generator_8c_source.html#l00013">surname2code()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9bc8c5ed6f5c0944ae3fe7bad7179e9d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void date2code </td>
+          <td>(</td>
+          <td class="paramtype">const char&#160;</td>
+          <td class="paramname"><em>date</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char&#160;</td>
+          <td class="paramname"><em>sex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>coded_date</em>[]&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Codifica la data di nascita nel formato per codice fiscale. </p>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">date</td><td>Data di nascita nel formato GG/MM/AAAA. </td></tr>
+    <tr><td class="paramname">sex</td><td>Sesso. </td></tr>
+    <tr><td class="paramname">coded_date</td><td>Stringa di 5 caratteri che conterra' la codifica. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section pre"><dt>Precondizione</dt><dd>date puo' contenere solo numeri e 2 caratteri separatori '/' </dd>
+<dd>
+date deve essere fornita nel formato GG/MM/AAAA con 0 &lt; GG &lt;= 31 ; 0 &lt; MM &lt;= 12; 1900 &lt; AAAA &lt;= 2015 </dd>
+<dd>
+sex puo' essere 'M' o 'F' </dd></dl>
+<dl class="section post"><dt>Postcondizione</dt><dd>coded_date deve essere una stringa di 5 caratteri </dd>
+<dd>
+deve esser composta da (in ordine): 2 cifre, 1 lettera, 2 cifre </dd></dl>
+
+<p>Definizione alla linea <a class="el" href="cf__generator_8c_source.html#l00113">113</a> del file <a class="el" href="cf__generator_8c_source.html">cf_generator.c</a>.</p>
+
+<p>Referenzia <a class="el" href="cf__utilities_8c_source.html#l00162">is_coded_date()</a>, <a class="el" href="cf__utilities_8c_source.html#l00038">is_date()</a>, e <a class="el" href="cf__utilities_8c_source.html#l00034">is_sex()</a>.</p>
+
+<p>Referenziato da <a class="el" href="cf__generator_8c_source.html#l00167">cf_generator()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac4d5e7a318159bdffb48b58f5a07dd4c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool get_coded_place </td>
+          <td>(</td>
+          <td class="paramtype">const char&#160;</td>
+          <td class="paramname"><em>place</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>coded_place</em>[]&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calcola il codice catastale di una citta' se esiste. </p>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">place</td><td>Citta' </td></tr>
+    <tr><td class="paramname">coded_place</td><td>Codice catastale (inizializzato a stringa vuota ""). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Restituisce</dt><dd>Valore di verita' sull'esistenza della citta' </dd></dl>
+<dl class="section pre"><dt>Precondizione</dt><dd>place puo' contenere solo caratteri maiuscoli, spazi, apici, trattini </dd></dl>
+<dl class="section post"><dt>Postcondizione</dt><dd>coded_place deve essere una stringa di 4 caratteri (1 lettera, 3 numeri). </dd></dl>
+
+<p>Definizione alla linea <a class="el" href="cf__generator_8c_source.html#l00200">200</a> del file <a class="el" href="cf__generator_8c_source.html">cf_generator.c</a>.</p>
+
+<p>Referenzia <a class="el" href="cf__utilities_8c_source.html#l00204">is_coded_place()</a>, <a class="el" href="cf__utilities_8c_source.html#l00088">is_place()</a>, e <a class="el" href="cf__utilities_8h_source.html#l00009">N_CITIES</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a21a746c04279a6d0eb6ea21a0c0aacf0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void name2code </td>
+          <td>(</td>
+          <td class="paramtype">const char&#160;</td>
+          <td class="paramname"><em>name</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>coded_name</em>[]&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Codifica il nome nel formato per codice fiscale. </p>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>Nome. </td></tr>
+    <tr><td class="paramname">coded_name</td><td>Stringa da 3 caratteri che conterra' la codifica. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section pre"><dt>Precondizione</dt><dd>name puo' contenere solo caratteri maiuscoli, spazi, apici. </dd>
+<dd>
+name deve essere formato da almeno due caratteri. </dd></dl>
+<dl class="section post"><dt>Postcondizione</dt><dd>coded_name deve contenere 3 lettere maiuscole. </dd></dl>
+
+<p>Definizione alla linea <a class="el" href="cf__generator_8c_source.html#l00054">54</a> del file <a class="el" href="cf__generator_8c_source.html">cf_generator.c</a>.</p>
+
+<p>Referenzia <a class="el" href="cf__generator_8c_source.html#l00011">COD_MAX</a>, <a class="el" href="cf__generator_8c_source.html#l00010">CON_MAX</a>, <a class="el" href="cf__utilities_8h_source.html#l00014">EOS</a>, <a class="el" href="cf__utilities_8c_source.html#l00158">is_coded_name()</a>, <a class="el" href="cf__utilities_8c_source.html#l00030">is_name()</a>, <a class="el" href="cf__utilities_8c_source.html#l00112">is_vocal()</a>, e <a class="el" href="cf__generator_8c_source.html#l00009">VOW_MAX</a>.</p>
+
+<p>Referenziato da <a class="el" href="cf__generator_8c_source.html#l00167">cf_generator()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a88cec21ddb7d3ceedd6ecbcbdc93132e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void surname2code </td>
+          <td>(</td>
+          <td class="paramtype">const char&#160;</td>
+          <td class="paramname"><em>org_surname</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>coded_surname</em>[]&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Codifica il cognome nel formato per codice fiscale. </p>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">org_surname</td><td>Cognome. </td></tr>
+    <tr><td class="paramname">coded_surname</td><td>Stringa da 3 caratteri che conterra' la codifica. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section pre"><dt>Precondizione</dt><dd>surname puo' contenere solo caratteri maiuscoli, spazi, apici. </dd>
+<dd>
+surname deve essere formato da almeno due caratteri. </dd></dl>
+<dl class="section post"><dt>Postcondizione</dt><dd>coded_surname deve contenere 3 lettere maiuscole. </dd></dl>
+
+<p>Definizione alla linea <a class="el" href="cf__generator_8c_source.html#l00013">13</a> del file <a class="el" href="cf__generator_8c_source.html">cf_generator.c</a>.</p>
+
+<p>Referenzia <a class="el" href="cf__generator_8c_source.html#l00011">COD_MAX</a>, <a class="el" href="cf__generator_8c_source.html#l00010">CON_MAX</a>, <a class="el" href="cf__utilities_8h_source.html#l00014">EOS</a>, <a class="el" href="cf__utilities_8c_source.html#l00147">is_coded_surname()</a>, <a class="el" href="cf__utilities_8c_source.html#l00007">is_surname()</a>, <a class="el" href="cf__utilities_8c_source.html#l00112">is_vocal()</a>, e <a class="el" href="cf__generator_8c_source.html#l00009">VOW_MAX</a>.</p>
+
+<p>Referenziato da <a class="el" href="cf__generator_8c_source.html#l00167">cf_generator()</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generato Ven 15 Mag 2015 17:15:50 per Generatore_di_Codice_Fiscale da &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.9.1
+</small></address>
+</body>
+</html>

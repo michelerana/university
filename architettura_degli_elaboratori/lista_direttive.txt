@@ -1,0 +1,8 @@
+xchg <dest>, <source>
+
+push <source16bitregistro> ; scrive sul top dello stack il contenuto di AX, sp (stack pointer) decrementa di 2 unità
+pop <dest16bitregistro> ; incrementa di 2
+
+add <dest>, <source>
+sub <dest>, <source>
+div <divisore> ; restituisce due risultati: quoziente e resto, cerca in ax il dividendo, il quoziente in al, il resto in ah

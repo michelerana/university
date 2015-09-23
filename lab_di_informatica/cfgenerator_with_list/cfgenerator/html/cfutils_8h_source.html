@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.9.1"/>
+<title>GeneratoreCodiceFiscale_daFile:  File sorgente src/utils/cfutils.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">GeneratoreCodiceFiscale_daFile
+   &#160;<span id="projectnumber">0.2</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generato da Doxygen 1.8.9.1 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Pagina&#160;Principale</span></a></li>
+      <li><a href="annotated.html"><span>Strutture&#160;dati</span></a></li>
+      <li class="current"><a href="files.html"><span>File</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Elenco&#160;dei&#160;file</span></a></li>
+      <li><a href="globals.html"><span>Elementi&#160;globali</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_b549a4ff29db703a8298ae0c0d679862.html">src</a></li><li class="navelem"><a class="el" href="dir_97195581ed4beb2807368ccd7773a593.html">utils</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">cfutils.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="cfutils_8h.html">Vai alla documentazione di questo file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#ifndef CFUTILS_H_</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#define CFUTILS_H_</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &lt;stdbool.h&gt;</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &lt;string.h&gt;</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &lt;assert.h&gt;</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="list_8h.html">list/list.h</a>&quot;</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="cfgenerator_8h.html">cfgenerator.h</a>&quot;</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="cfutils_8h.html#ab1427889cf57d45ecd3bfba2bf30c0e0">   23</a></span>&#160;<span class="preprocessor">#define OS_SEP &#39;/&#39;</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="cfutils_8h.html#aba2438271c3c5d02c49ccfdb974ac480">   31</a></span>&#160;<span class="keyword">typedef</span> bool (*<a class="code" href="cfutils_8h.html#aba2438271c3c5d02c49ccfdb974ac480">filter_fn</a>)(<span class="keyword">const</span> <a class="code" href="structperson__struct.html">person</a>* data);</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="cfutils_8h.html#af971fbe4012b172ee262b517d47f6e9d">is_male</a>(<span class="keyword">const</span> <a class="code" href="structperson__struct.html">person</a>* data);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="cfutils_8h.html#a8fe38fce519a2f18ffa004d1e0e439f7">is_female</a>(<span class="keyword">const</span> <a class="code" href="structperson__struct.html">person</a>* data);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="cfutils_8h.html#a126f7ec4dc4bd53893551f9a77a130aa">is_surname_AL</a>(<span class="keyword">const</span> <a class="code" href="structperson__struct.html">person</a>* data);</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="cfutils_8h.html#aa2b5c4e5df6933c83e0ea5c6fdc1eda5">is_surname_MZ</a>(<span class="keyword">const</span> <a class="code" href="structperson__struct.html">person</a>* data);</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="cfutils_8h.html#a7b28bbb57bf4ac8ebf10b09f67cd6ffb">is_male_AL</a>(<span class="keyword">const</span> <a class="code" href="structperson__struct.html">person</a>* data);</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="cfutils_8h.html#a11352b8b849bb2ff669daf495fd7d621">is_female_MZ</a>(<span class="keyword">const</span> <a class="code" href="structperson__struct.html">person</a>* data);</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;<span class="keywordtype">void</span> <a class="code" href="cfutils_8h.html#abbdd3c53280a89356e974e36956e3181">filter_people</a>(<a class="code" href="structlist__struct.html">list</a>* people_list, <a class="code" href="cfutils_8h.html#aba2438271c3c5d02c49ccfdb974ac480">filter_fn</a> filter);</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;<span class="keywordtype">void</span> <a class="code" href="cfutils_8h.html#add6ed5674e1e1f1c4f1b6937e2566096">generate_cfs</a>(<a class="code" href="structlist__struct.html">list</a>* people_list, FILE* places_file);</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;<span class="keywordtype">char</span>* <a class="code" href="cfutils_8h.html#a25aaff78c36f2fb227781269d08f6d79">read_birth_place_code</a>(FILE* places_file,<span class="keyword">const</span> <span class="keywordtype">char</span>* birth_place);</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;<a class="code" href="structperson__struct.html">person</a>* <a class="code" href="cfutils_8h.html#a4805f43b1cce5e4f4cb109ea7fffa865">read_person</a>(FILE* people_file);</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;<a class="code" href="structlist__struct.html">list</a>* <a class="code" href="cfutils_8h.html#a7765ae735d9e1d913f831cfc87d87724">people_file_to_list</a>(FILE* people_file);</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;<span class="keywordtype">void</span> <a class="code" href="cfutils_8h.html#a9931bc9bf5c044f5060865421275d8ff">list_to_file</a>(<a class="code" href="structlist__struct.html">list</a>* people_list, FILE* output_file);</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;<span class="keywordtype">void</span> <a class="code" href="cfutils_8h.html#ad3e7903f1c81d73481aaabed1c55064c">list_to_file_males_AL</a>(<a class="code" href="structlist__struct.html">list</a>* people_list, FILE* output_file);</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;<span class="keywordtype">void</span> <a class="code" href="cfutils_8h.html#a446a1f3f501d5b4a46df676a674b4690">list_to_file_females_MZ</a>(<a class="code" href="structlist__struct.html">list</a>* people_list, FILE* output_file);</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;<span class="keywordtype">void</span> <a class="code" href="cfutils_8h.html#a4c7700d3aca25a3f77fbf3439b142f2a">people_to_file_cf</a>(FILE* people_file, FILE* output_file, FILE* places_file);</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;<span class="keywordtype">void</span> <a class="code" href="cfutils_8h.html#a0ad4117184a9daefa90784f49c6d0a82">people_to_file_cf_males_AL</a>(FILE* people_file, FILE* output_file, FILE* places_file);</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;<span class="keywordtype">void</span> <a class="code" href="cfutils_8h.html#a337d774827f21fc273730d2454d6a5b6">people_to_file_cf_females_MZ</a>(FILE* people_file, FILE* output_file, FILE* places_file);</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;<span class="keywordtype">char</span>* <a class="code" href="cfutils_8h.html#ad5b82adf08e4355dba0ebc1cb9eca72b">outfile_path</a>(<span class="keywordtype">char</span>* wd_path, <span class="keywordtype">char</span>* filename);</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;</div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;</div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* CFUTILS_H_ */</span><span class="preprocessor"></span></div>
+<div class="ttc" id="structperson__struct_html"><div class="ttname"><a href="structperson__struct.html">person_struct</a></div><div class="ttdoc">Tipo di dato struttura persona. </div><div class="ttdef"><b>Definition:</b> <a href="person_8h_source.html#l00034">person.h:34</a></div></div>
+<div class="ttc" id="cfutils_8h_html_a446a1f3f501d5b4a46df676a674b4690"><div class="ttname"><a href="cfutils_8h.html#a446a1f3f501d5b4a46df676a674b4690">list_to_file_females_MZ</a></div><div class="ttdeci">void list_to_file_females_MZ(list *people_list, FILE *output_file)</div><div class="ttdoc">Filtra una lista preservando individui di sesso femminile con cognome compreso tra M-Z...</div><div class="ttdef"><b>Definition:</b> <a href="cfutils_8c_source.html#l00225">cfutils.c:225</a></div></div>
+<div class="ttc" id="cfutils_8h_html_abbdd3c53280a89356e974e36956e3181"><div class="ttname"><a href="cfutils_8h.html#abbdd3c53280a89356e974e36956e3181">filter_people</a></div><div class="ttdeci">void filter_people(list *people_list, filter_fn filter)</div><div class="ttdoc">Filtra le persone presenti in una lista di persone in base ad una funzione di filtraggio. </div><div class="ttdef"><b>Definition:</b> <a href="cfutils_8c_source.html#l00077">cfutils.c:77</a></div></div>
+<div class="ttc" id="cfutils_8h_html_a7765ae735d9e1d913f831cfc87d87724"><div class="ttname"><a href="cfutils_8h.html#a7765ae735d9e1d913f831cfc87d87724">people_file_to_list</a></div><div class="ttdeci">list * people_file_to_list(FILE *people_file)</div><div class="ttdoc">Legge i dati anagrafici delle persone presenti nel file di input. </div><div class="ttdef"><b>Definition:</b> <a href="cfutils_8c_source.html#l00172">cfutils.c:172</a></div></div>
+<div class="ttc" id="cfutils_8h_html_a9931bc9bf5c044f5060865421275d8ff"><div class="ttname"><a href="cfutils_8h.html#a9931bc9bf5c044f5060865421275d8ff">list_to_file</a></div><div class="ttdeci">void list_to_file(list *people_list, FILE *output_file)</div><div class="ttdoc">Stampa su file i dati anagrafici delle persone in lista. </div><div class="ttdef"><b>Definition:</b> <a href="cfutils_8c_source.html#l00196">cfutils.c:196</a></div></div>
+<div class="ttc" id="cfutils_8h_html_ad5b82adf08e4355dba0ebc1cb9eca72b"><div class="ttname"><a href="cfutils_8h.html#ad5b82adf08e4355dba0ebc1cb9eca72b">outfile_path</a></div><div class="ttdeci">char * outfile_path(char *wd_path, char *filename)</div><div class="ttdoc">Genera il path assoluto di filename. </div><div class="ttdef"><b>Definition:</b> <a href="cfutils_8c_source.html#l00270">cfutils.c:270</a></div></div>
+<div class="ttc" id="cfutils_8h_html_a7b28bbb57bf4ac8ebf10b09f67cd6ffb"><div class="ttname"><a href="cfutils_8h.html#a7b28bbb57bf4ac8ebf10b09f67cd6ffb">is_male_AL</a></div><div class="ttdeci">bool is_male_AL(const person *data)</div><div class="ttdoc">Controlla se il sesso della persona e&#39; M e se il cognome inizia con una lettera compresa tra A-L Data...</div><div class="ttdef"><b>Definition:</b> <a href="cfutils_8c_source.html#l00061">cfutils.c:61</a></div></div>
+<div class="ttc" id="cfutils_8h_html_a25aaff78c36f2fb227781269d08f6d79"><div class="ttname"><a href="cfutils_8h.html#a25aaff78c36f2fb227781269d08f6d79">read_birth_place_code</a></div><div class="ttdeci">char * read_birth_place_code(FILE *places_file, const char *birth_place)</div><div class="ttdoc">Legge il codice catastale di un comune. </div><div class="ttdef"><b>Definition:</b> <a href="cfutils_8c_source.html#l00119">cfutils.c:119</a></div></div>
+<div class="ttc" id="cfutils_8h_html_aa2b5c4e5df6933c83e0ea5c6fdc1eda5"><div class="ttname"><a href="cfutils_8h.html#aa2b5c4e5df6933c83e0ea5c6fdc1eda5">is_surname_MZ</a></div><div class="ttdeci">bool is_surname_MZ(const person *data)</div><div class="ttdoc">Controlla se il cognome della persona inizia con una lettera compresa tra M-Z. </div><div class="ttdef"><b>Definition:</b> <a href="cfutils_8c_source.html#l00049">cfutils.c:49</a></div></div>
+<div class="ttc" id="cfutils_8h_html_a126f7ec4dc4bd53893551f9a77a130aa"><div class="ttname"><a href="cfutils_8h.html#a126f7ec4dc4bd53893551f9a77a130aa">is_surname_AL</a></div><div class="ttdeci">bool is_surname_AL(const person *data)</div><div class="ttdoc">Controlla se il cognome di una persona inizia con una lettera compresa tra A-L. </div><div class="ttdef"><b>Definition:</b> <a href="cfutils_8c_source.html#l00037">cfutils.c:37</a></div></div>
+<div class="ttc" id="list_8h_html"><div class="ttname"><a href="list_8h.html">list.h</a></div></div>
+<div class="ttc" id="cfutils_8h_html_add6ed5674e1e1f1c4f1b6937e2566096"><div class="ttname"><a href="cfutils_8h.html#add6ed5674e1e1f1c4f1b6937e2566096">generate_cfs</a></div><div class="ttdeci">void generate_cfs(list *people_list, FILE *places_file)</div><div class="ttdoc">Genera il codice fiscale delle persone presenti nella lista. </div><div class="ttdef"><b>Definition:</b> <a href="cfutils_8c_source.html#l00101">cfutils.c:101</a></div></div>
+<div class="ttc" id="cfutils_8h_html_a4c7700d3aca25a3f77fbf3439b142f2a"><div class="ttname"><a href="cfutils_8h.html#a4c7700d3aca25a3f77fbf3439b142f2a">people_to_file_cf</a></div><div class="ttdeci">void people_to_file_cf(FILE *people_file, FILE *output_file, FILE *places_file)</div><div class="ttdoc">Legge i dati anagrafici di persone da un file e li riscrive in un altro file aggiungendovi il codice ...</div><div class="ttdef"><b>Definition:</b> <a href="cfutils_8c_source.html#l00234">cfutils.c:234</a></div></div>
+<div class="ttc" id="cfgenerator_8h_html"><div class="ttname"><a href="cfgenerator_8h.html">cfgenerator.h</a></div></div>
+<div class="ttc" id="structlist__struct_html"><div class="ttname"><a href="structlist__struct.html">list_struct</a></div><div class="ttdef"><b>Definition:</b> <a href="list_8c_source.html#l00014">list.c:14</a></div></div>
+<div class="ttc" id="cfutils_8h_html_ad3e7903f1c81d73481aaabed1c55064c"><div class="ttname"><a href="cfutils_8h.html#ad3e7903f1c81d73481aaabed1c55064c">list_to_file_males_AL</a></div><div class="ttdeci">void list_to_file_males_AL(list *people_list, FILE *output_file)</div><div class="ttdoc">Filtra una lista preservando individui di sesso maschile con cognome compreso tra A-L...</div><div class="ttdef"><b>Definition:</b> <a href="cfutils_8c_source.html#l00216">cfutils.c:216</a></div></div>
+<div class="ttc" id="cfutils_8h_html_aba2438271c3c5d02c49ccfdb974ac480"><div class="ttname"><a href="cfutils_8h.html#aba2438271c3c5d02c49ccfdb974ac480">filter_fn</a></div><div class="ttdeci">bool(* filter_fn)(const person *data)</div><div class="ttdoc">Tipo di dato puntatore a funzione per filtrare le persone presenti nella lista. </div><div class="ttdef"><b>Definition:</b> <a href="cfutils_8h_source.html#l00031">cfutils.h:31</a></div></div>
+<div class="ttc" id="cfutils_8h_html_a11352b8b849bb2ff669daf495fd7d621"><div class="ttname"><a href="cfutils_8h.html#a11352b8b849bb2ff669daf495fd7d621">is_female_MZ</a></div><div class="ttdeci">bool is_female_MZ(const person *data)</div><div class="ttdoc">Controlla se il sesso della persona e&#39; F e se il cognome inizia con una lettera compresa tra M-Z Data...</div><div class="ttdef"><b>Definition:</b> <a href="cfutils_8c_source.html#l00069">cfutils.c:69</a></div></div>
+<div class="ttc" id="cfutils_8h_html_a8fe38fce519a2f18ffa004d1e0e439f7"><div class="ttname"><a href="cfutils_8h.html#a8fe38fce519a2f18ffa004d1e0e439f7">is_female</a></div><div class="ttdeci">bool is_female(const person *data)</div><div class="ttdoc">Controlla se il sesso di una persona e&#39; femminile. </div><div class="ttdef"><b>Definition:</b> <a href="cfutils_8c_source.html#l00025">cfutils.c:25</a></div></div>
+<div class="ttc" id="cfutils_8h_html_a4805f43b1cce5e4f4cb109ea7fffa865"><div class="ttname"><a href="cfutils_8h.html#a4805f43b1cce5e4f4cb109ea7fffa865">read_person</a></div><div class="ttdeci">person * read_person(FILE *people_file)</div><div class="ttdoc">Legge i dati anagrafici di una singola persona come blocco di informazioni (il codice fiscale non e&#39; ...</div><div class="ttdef"><b>Definition:</b> <a href="cfutils_8c_source.html#l00150">cfutils.c:150</a></div></div>
+<div class="ttc" id="cfutils_8h_html_a0ad4117184a9daefa90784f49c6d0a82"><div class="ttname"><a href="cfutils_8h.html#a0ad4117184a9daefa90784f49c6d0a82">people_to_file_cf_males_AL</a></div><div class="ttdeci">void people_to_file_cf_males_AL(FILE *people_file, FILE *output_file, FILE *places_file)</div><div class="ttdoc">Legge i dati anagrafici di persone da un file, filtra i risultati e li riscrive in un altro file aggi...</div><div class="ttdef"><b>Definition:</b> <a href="cfutils_8c_source.html#l00246">cfutils.c:246</a></div></div>
+<div class="ttc" id="cfutils_8h_html_af971fbe4012b172ee262b517d47f6e9d"><div class="ttname"><a href="cfutils_8h.html#af971fbe4012b172ee262b517d47f6e9d">is_male</a></div><div class="ttdeci">bool is_male(const person *data)</div><div class="ttdoc">Controlla se il sesso di una persona e&#39; maschile. </div><div class="ttdef"><b>Definition:</b> <a href="cfutils_8c_source.html#l00013">cfutils.c:13</a></div></div>
+<div class="ttc" id="cfutils_8h_html_a337d774827f21fc273730d2454d6a5b6"><div class="ttname"><a href="cfutils_8h.html#a337d774827f21fc273730d2454d6a5b6">people_to_file_cf_females_MZ</a></div><div class="ttdeci">void people_to_file_cf_females_MZ(FILE *people_file, FILE *output_file, FILE *places_file)</div><div class="ttdoc">Legge i dati anagrafici di persone da un file, filtra i risultati e li riscrive in un altro file aggi...</div><div class="ttdef"><b>Definition:</b> <a href="cfutils_8c_source.html#l00258">cfutils.c:258</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generato Mer 24 Giu 2015 22:48:23 per GeneratoreCodiceFiscale_daFile da &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.9.1
+</small></address>
+</body>
+</html>

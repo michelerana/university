@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.9.1"/>
+<title>Generatore_di_Codice_Fiscale:  File sorgente src/cf_utilities.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Generatore_di_Codice_Fiscale
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generato da Doxygen 1.8.9.1 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Pagina&#160;Principale</span></a></li>
+      <li><a href="annotated.html"><span>Strutture&#160;dati</span></a></li>
+      <li class="current"><a href="files.html"><span>File</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Elenco&#160;dei&#160;file</span></a></li>
+      <li><a href="globals.html"><span>Elementi&#160;globali</span></a></li>
+    </ul>
+  </div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">cf_utilities.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="cf__utilities_8h.html">Vai alla documentazione di questo file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef SRC_CF_UTILITIES_H_</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define SRC_CF_UTILITIES_H_</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;stdbool.h&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
+<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="cf__utilities_8h.html#ab98b4b7a593c627bff4d128b199a51db">    9</a></span>&#160;<span class="preprocessor">#define N_CITIES 8092</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="cf__utilities_8h.html#aadbbc7b02d94a4c18646813ac8d7dec1">   14</a></span>&#160;<span class="preprocessor">#define EOS &#39;\0&#39;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="cf__utilities_8h.html#a1c0a8583475158d365d995e54e98803c">   18</a></span>&#160;<span class="preprocessor">#define SURNAME_MIN 2</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="cf__utilities_8h.html#ae871cdcd3f9929f3e0d70a342648e146">   22</a></span>&#160;<span class="preprocessor">#define CAP_LET_MIN 2</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="cf__utilities_8h.html#af6e15bebe6b6486cf2ac8a75f717570f">   26</a></span>&#160;<span class="preprocessor">#define PLACE_MIN 2</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="cf__utilities_8h.html#ab55c9d2bbc44af4b5b2788b4efb31535">   30</a></span>&#160;<span class="preprocessor">#define DATE_LEN 10</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="cf__utilities_8h.html#a06fc87d81c62e9abb8790b6e5713c55bab6d4d61901264c57d6d4c9bc3c3f6800">   36</a></span>&#160;<span class="keyword">enum</span> { <a class="code" href="cf__utilities_8h.html#a06fc87d81c62e9abb8790b6e5713c55bab6d4d61901264c57d6d4c9bc3c3f6800">FEB</a> = 2, </div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="cf__utilities_8h.html#a06fc87d81c62e9abb8790b6e5713c55ba7448bd19f7a719fdd32a6fa34741f6c7">   37</a></span>&#160;       <a class="code" href="cf__utilities_8h.html#a06fc87d81c62e9abb8790b6e5713c55ba7448bd19f7a719fdd32a6fa34741f6c7">APR</a> = 4,    </div>
+<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="cf__utilities_8h.html#a06fc87d81c62e9abb8790b6e5713c55bad190d5ac25316551a46b1499e639ac9f">   38</a></span>&#160;       <a class="code" href="cf__utilities_8h.html#a06fc87d81c62e9abb8790b6e5713c55bad190d5ac25316551a46b1499e639ac9f">JUN</a> = 6,    </div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="cf__utilities_8h.html#a06fc87d81c62e9abb8790b6e5713c55ba96f570a6d738a3a6a21ba34ed58dbf1e">   39</a></span>&#160;       <a class="code" href="cf__utilities_8h.html#a06fc87d81c62e9abb8790b6e5713c55ba96f570a6d738a3a6a21ba34ed58dbf1e">SEP</a> = 9,    </div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="cf__utilities_8h.html#a06fc87d81c62e9abb8790b6e5713c55ba32fdfae37338cc9b87387d248f493bc2">   40</a></span>&#160;       <a class="code" href="cf__utilities_8h.html#a06fc87d81c62e9abb8790b6e5713c55ba32fdfae37338cc9b87387d248f493bc2">NOV</a> = 11   </div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;};</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
+<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="structcity.html">   51</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span>{</div>
+<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="structcity.html#a0243b30238aab7efe535b641741e602d">   52</a></span>&#160;        <span class="keywordtype">char</span> code[5];</div>
+<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="structcity.html#a4529fc6353e2e1db51c516d2ce1eb375">   53</a></span>&#160;        <span class="keywordtype">char</span> name[36];</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;} <a class="code" href="structcity.html">city</a>;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">char</span> months_coded[] = <span class="stringliteral">&quot;ABCDEHLMPRST&quot;</span>;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="cf__utilities_8h.html#a4ae5e312ec1e309335b25039d7e5eba5">is_surname</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> surname[]);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="cf__utilities_8h.html#af8d1b2b142f6614cd4444f7f51240ea0">is_name</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> name[]);</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="cf__utilities_8h.html#a821033e5a088b6aa5265a39820371e9e">is_sex</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> sex);</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="cf__utilities_8h.html#a22b26d9b2c13beaf199902f9f6bf7418">is_date</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> date_org[]);</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="cf__utilities_8h.html#afc34bd112bee6b18abf8eaef021b00ba">is_place</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> place[]);</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="cf__utilities_8h.html#a51d8cbd47fcbd8dfe4446890fa9d7865">is_vocal</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> letter);</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="keywordtype">int</span> <a class="code" href="cf__utilities_8h.html#a4746bcbac6333768374d29821aad4028">generate_acode</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> code, <span class="keyword">const</span> <span class="keywordtype">int</span> idx);</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="cf__utilities_8h.html#af42c59ab10a4429cfe60813a6efcaa54">is_coded_surname</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> coded_surname[]);</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="cf__utilities_8h.html#a0cf120dbbbd270a471f73cc8afe7b24d">is_coded_name</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> coded_name[]);</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="cf__utilities_8h.html#a84a49671d6a7e7af8ed1fbd7bdab861d">is_coded_date</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> coded_date[]);</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="cf__utilities_8h.html#af4d575f20c09da2155cfd442a4d4a7a8">is_coded_place</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> coded_place[]);</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="cf__utilities_8h.html#a5e73be9eb1a60e06c2db7ab2fd7da48d">is_ctrl_code</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> ctrl_code);</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* SRC_CF_UTILITIES_H_ */</span><span class="preprocessor"></span></div>
+<div class="ttc" id="cf__utilities_8h_html_a84a49671d6a7e7af8ed1fbd7bdab861d"><div class="ttname"><a href="cf__utilities_8h.html#a84a49671d6a7e7af8ed1fbd7bdab861d">is_coded_date</a></div><div class="ttdeci">bool is_coded_date(const char coded_date[])</div><div class="ttdoc">Verifica se la data e&#39; correttamente codificata nel formato codice fiscale. </div><div class="ttdef"><b>Definition:</b> <a href="cf__utilities_8c_source.html#l00162">cf_utilities.c:162</a></div></div>
+<div class="ttc" id="cf__utilities_8h_html_a06fc87d81c62e9abb8790b6e5713c55ba96f570a6d738a3a6a21ba34ed58dbf1e"><div class="ttname"><a href="cf__utilities_8h.html#a06fc87d81c62e9abb8790b6e5713c55ba96f570a6d738a3a6a21ba34ed58dbf1e">SEP</a></div><div class="ttdoc">9 </div><div class="ttdef"><b>Definition:</b> <a href="cf__utilities_8h_source.html#l00039">cf_utilities.h:39</a></div></div>
+<div class="ttc" id="cf__utilities_8h_html_a06fc87d81c62e9abb8790b6e5713c55ba7448bd19f7a719fdd32a6fa34741f6c7"><div class="ttname"><a href="cf__utilities_8h.html#a06fc87d81c62e9abb8790b6e5713c55ba7448bd19f7a719fdd32a6fa34741f6c7">APR</a></div><div class="ttdoc">4 </div><div class="ttdef"><b>Definition:</b> <a href="cf__utilities_8h_source.html#l00037">cf_utilities.h:37</a></div></div>
+<div class="ttc" id="cf__utilities_8h_html_a51d8cbd47fcbd8dfe4446890fa9d7865"><div class="ttname"><a href="cf__utilities_8h.html#a51d8cbd47fcbd8dfe4446890fa9d7865">is_vocal</a></div><div class="ttdeci">bool is_vocal(const char letter)</div><div class="ttdoc">Verifica se la lettera e&#39; una vocale. </div><div class="ttdef"><b>Definition:</b> <a href="cf__utilities_8c_source.html#l00112">cf_utilities.c:112</a></div></div>
+<div class="ttc" id="structcity_html"><div class="ttname"><a href="structcity.html">city</a></div><div class="ttdoc">Struttura contenente il codice catastale e il nome di un comune. </div><div class="ttdef"><b>Definition:</b> <a href="cf__utilities_8h_source.html#l00051">cf_utilities.h:51</a></div></div>
+<div class="ttc" id="cf__utilities_8h_html_a06fc87d81c62e9abb8790b6e5713c55bad190d5ac25316551a46b1499e639ac9f"><div class="ttname"><a href="cf__utilities_8h.html#a06fc87d81c62e9abb8790b6e5713c55bad190d5ac25316551a46b1499e639ac9f">JUN</a></div><div class="ttdoc">6 </div><div class="ttdef"><b>Definition:</b> <a href="cf__utilities_8h_source.html#l00038">cf_utilities.h:38</a></div></div>
+<div class="ttc" id="cf__utilities_8h_html_a06fc87d81c62e9abb8790b6e5713c55bab6d4d61901264c57d6d4c9bc3c3f6800"><div class="ttname"><a href="cf__utilities_8h.html#a06fc87d81c62e9abb8790b6e5713c55bab6d4d61901264c57d6d4c9bc3c3f6800">FEB</a></div><div class="ttdoc">2 </div><div class="ttdef"><b>Definition:</b> <a href="cf__utilities_8h_source.html#l00036">cf_utilities.h:36</a></div></div>
+<div class="ttc" id="cf__utilities_8h_html_afc34bd112bee6b18abf8eaef021b00ba"><div class="ttname"><a href="cf__utilities_8h.html#afc34bd112bee6b18abf8eaef021b00ba">is_place</a></div><div class="ttdeci">bool is_place(const char place[])</div><div class="ttdoc">Verifica se la citta&#39; contiene solo caratteri maiuscoli, spazi, apici e trattini. ...</div><div class="ttdef"><b>Definition:</b> <a href="cf__utilities_8c_source.html#l00088">cf_utilities.c:88</a></div></div>
+<div class="ttc" id="cf__utilities_8h_html_a4746bcbac6333768374d29821aad4028"><div class="ttname"><a href="cf__utilities_8h.html#a4746bcbac6333768374d29821aad4028">generate_acode</a></div><div class="ttdeci">int generate_acode(const char code, const int idx)</div><div class="ttdoc">Calcola il valore del codice alfanumerico di un carattere del codice fiscale. </div><div class="ttdef"><b>Definition:</b> <a href="cf__utilities_8c_source.html#l00119">cf_utilities.c:119</a></div></div>
+<div class="ttc" id="cf__utilities_8h_html_a0cf120dbbbd270a471f73cc8afe7b24d"><div class="ttname"><a href="cf__utilities_8h.html#a0cf120dbbbd270a471f73cc8afe7b24d">is_coded_name</a></div><div class="ttdeci">bool is_coded_name(const char coded_name[])</div><div class="ttdoc">Verifica se il nome e&#39; correttamente codificato nel formato codice fiscale. </div><div class="ttdef"><b>Definition:</b> <a href="cf__utilities_8c_source.html#l00158">cf_utilities.c:158</a></div></div>
+<div class="ttc" id="cf__utilities_8h_html_a22b26d9b2c13beaf199902f9f6bf7418"><div class="ttname"><a href="cf__utilities_8h.html#a22b26d9b2c13beaf199902f9f6bf7418">is_date</a></div><div class="ttdeci">bool is_date(const char date_org[])</div><div class="ttdoc">Verifica se la data e&#39; nel formato GG/MM/AAAA. </div><div class="ttdef"><b>Definition:</b> <a href="cf__utilities_8c_source.html#l00038">cf_utilities.c:38</a></div></div>
+<div class="ttc" id="cf__utilities_8h_html_a5e73be9eb1a60e06c2db7ab2fd7da48d"><div class="ttname"><a href="cf__utilities_8h.html#a5e73be9eb1a60e06c2db7ab2fd7da48d">is_ctrl_code</a></div><div class="ttdeci">bool is_ctrl_code(const char ctrl_code)</div><div class="ttdoc">Verifica se il codice di controllo e&#39; correttamente codificato nel formato codice fiscale...</div><div class="ttdef"><b>Definition:</b> <a href="cf__utilities_8c_source.html#l00218">cf_utilities.c:218</a></div></div>
+<div class="ttc" id="cf__utilities_8h_html_af8d1b2b142f6614cd4444f7f51240ea0"><div class="ttname"><a href="cf__utilities_8h.html#af8d1b2b142f6614cd4444f7f51240ea0">is_name</a></div><div class="ttdeci">bool is_name(const char name[])</div><div class="ttdoc">Verifica se il nome contiene solo caratteri maiuscoli, spazi e apici. </div><div class="ttdef"><b>Definition:</b> <a href="cf__utilities_8c_source.html#l00030">cf_utilities.c:30</a></div></div>
+<div class="ttc" id="cf__utilities_8h_html_af42c59ab10a4429cfe60813a6efcaa54"><div class="ttname"><a href="cf__utilities_8h.html#af42c59ab10a4429cfe60813a6efcaa54">is_coded_surname</a></div><div class="ttdeci">bool is_coded_surname(const char coded_surname[])</div><div class="ttdoc">Verifica se il cognome e&#39; correttamente codificato nel formato codice fiscale. </div><div class="ttdef"><b>Definition:</b> <a href="cf__utilities_8c_source.html#l00147">cf_utilities.c:147</a></div></div>
+<div class="ttc" id="cf__utilities_8h_html_a821033e5a088b6aa5265a39820371e9e"><div class="ttname"><a href="cf__utilities_8h.html#a821033e5a088b6aa5265a39820371e9e">is_sex</a></div><div class="ttdeci">bool is_sex(const char sex)</div><div class="ttdoc">Verifica se il sesso della persona e&#39; &#39;M&#39; oppure &#39;F&#39;. </div><div class="ttdef"><b>Definition:</b> <a href="cf__utilities_8c_source.html#l00034">cf_utilities.c:34</a></div></div>
+<div class="ttc" id="cf__utilities_8h_html_a4ae5e312ec1e309335b25039d7e5eba5"><div class="ttname"><a href="cf__utilities_8h.html#a4ae5e312ec1e309335b25039d7e5eba5">is_surname</a></div><div class="ttdeci">bool is_surname(const char surname[])</div><div class="ttdoc">Verifica se il cognome contiene solo caratteri maiuscoli, spazi e apici. </div><div class="ttdef"><b>Definition:</b> <a href="cf__utilities_8c_source.html#l00007">cf_utilities.c:7</a></div></div>
+<div class="ttc" id="cf__utilities_8h_html_af4d575f20c09da2155cfd442a4d4a7a8"><div class="ttname"><a href="cf__utilities_8h.html#af4d575f20c09da2155cfd442a4d4a7a8">is_coded_place</a></div><div class="ttdeci">bool is_coded_place(const char coded_place[])</div><div class="ttdoc">Verifica se la citta&#39; e&#39; correttamente codificata nel formato codice fiscale. </div><div class="ttdef"><b>Definition:</b> <a href="cf__utilities_8c_source.html#l00204">cf_utilities.c:204</a></div></div>
+<div class="ttc" id="cf__utilities_8h_html_a06fc87d81c62e9abb8790b6e5713c55ba32fdfae37338cc9b87387d248f493bc2"><div class="ttname"><a href="cf__utilities_8h.html#a06fc87d81c62e9abb8790b6e5713c55ba32fdfae37338cc9b87387d248f493bc2">NOV</a></div><div class="ttdoc">11 </div><div class="ttdef"><b>Definition:</b> <a href="cf__utilities_8h_source.html#l00040">cf_utilities.h:40</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generato Ven 15 Mag 2015 17:15:50 per Generatore_di_Codice_Fiscale da &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.9.1
+</small></address>
+</body>
+</html>
